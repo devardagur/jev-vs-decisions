@@ -1,0 +1,1001 @@
+id,text,flags,intent,category,tone,is_offensive,has_typos,is_keyword_only,has_negation
+0,change information on {{Account Type}} account,BKL,edit_account,ACCOUNT,1,0,0,1,0
+1,update data on {{Account Category}} cacount,BKLZ,edit_account,ACCOUNT,1,0,1,1,0
+2,i have to notify of problems with payments,BLMQ,payment_issue,PAYMENT,1,0,0,0,0
+3,"I want to check how long reimbursements take, I need help",BCL,check_refund_policy,REFUND,1,0,0,0,0
+4,I don't know how I can check the rebate status,BL,track_refund,REFUND,1,0,0,0,0
+5,I do not know what I have to do to remove a damn {{Account Type}} account,BELW,delete_account,ACCOUNT,0,1,0,0,0
+6,want assistance checking the restitution status,BLQ,track_refund,REFUND,1,0,0,0,0
+7,tell me about correcting the shipping address,BL,change_shipping_address,SHIPPING,1,0,0,0,0
+8,help contacting damn customer support,BLW,contact_customer_service,CONTACT,0,1,0,0,0
+9,assistance to get a rebate,BL,get_refund,REFUND,1,0,0,0,0
+10,assistance to sign up to ur corporate newsletter,BLQ,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+11,where can I see if there is anything new on the restitution?,BIL,track_refund,REFUND,1,0,0,0,0
+12,how soon can I expect my order?,BIL,delivery_period,DELIVERY,1,0,0,0,0
+13,I want assistance informing of an error with payments,BLM,payment_issue,PAYMENT,1,0,0,0,0
+14,can I subscribe to the corporate newsletter?,BIL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+15,changing to standard account,BKL,switch_account,ACCOUNT,1,0,0,1,0
+16,I have to check in what cases can I ask for a reimbursement,BL,check_refund_policy,REFUND,1,0,0,0,0
+17,i try to file a customer claim against ur company,BLQ,complaint,FEEDBACK,1,0,0,0,0
+18,i cannot find the cancellation fees,BEMQ,check_cancellation_fee,CANCEL,1,0,0,0,0
+19,help me file a consumer complaint against ur company,BLQ,complaint,FEEDBACK,1,0,0,0,0
+20,I need assistance downloading invoice #85632,BL,get_invoice,INVOICE,1,0,0,0,0
+21,I don't know what I have to do to change to the gold account,BL,switch_account,ACCOUNT,1,0,0,0,0
+22,question about a forgotten key,BL,recover_password,ACCOUNT,1,0,0,0,0
+23,I have to see in which cases can I request a refund,BL,check_refund_policy,REFUND,1,0,0,0,0
+24,where to lodge a customer reclamation?,BIL,complaint,FEEDBACK,1,0,0,0,0
+25,i need help sending some feedback about a service,BLQ,review,FEEDBACK,1,0,0,0,0
+26,problem with changing some products of purchase {{Order Number}},BLM,change_order,ORDER,1,0,0,0,0
+27,have a question about my {{Account Category}} account cancellation,BLQ,delete_account,ACCOUNT,1,0,0,0,0
+28,i expect a refund of {{Refund Amount}} dollars has it been processed,BCILQ,track_refund,REFUND,1,0,0,0,0
+29,what do I have to do to request a restitution of money?,BIL,get_refund,REFUND,1,0,0,0,0
+30,can ya help me swapping an article of order {{Order Number}},BILQ,change_order,ORDER,1,0,0,0,0
+31,i want help seeing the ETA of order {{Order Number}},BLQ,track_order,ORDER,1,0,0,0,0
+32,I have troubles modifying the fucking shipping address,BLMW,change_shipping_address,SHIPPING,0,1,0,0,0
+33,i have got to see how long the delivery takes,BLQ,delivery_period,DELIVERY,1,0,0,0,0
+34,i need help to notify of payment errors,BLMQ,payment_issue,PAYMENT,1,0,0,0,0
+35,what do i need to do to notiyf of problems with a signup,BILMQZ,registration_problems,ACCOUNT,1,0,1,0,0
+36,I can't check if there is anything wrong with my rebate,BLN,track_refund,REFUND,1,0,0,0,1
+37,help seeing the current status of purchase {{Order Number}},BL,track_order,ORDER,1,0,0,0,0
+38,I have to enter a shipping address,BL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+39,can you tell me more about correcting the bloody address?,BILW,change_shipping_address,SHIPPING,0,1,0,0,0
+40,"I can't pay, could you help me report payment errors?",BCILMP,payment_issue,PAYMENT,2,0,0,0,0
+41,I want assistance sending my damn feedback for a product,BLW,review,FEEDBACK,0,1,0,0,0
+42,can uhelp me cancel the corporate newsetter subscription,BILQZ,newsletter_subscription,SUBSCRIPTION,1,0,1,0,0
+43,want assistance checking your reimbursement plicy,BLQZ,check_refund_policy,REFUND,1,0,1,0,0
+44,need to file a consumer complaint against ur organization,BLQ,complaint,FEEDBACK,1,0,0,0,0
+45,want help to see ur money back policy,BLQ,check_refund_policy,REFUND,1,0,0,0,0
+46,modifying standard account,BKL,edit_account,ACCOUNT,1,0,0,1,0
+47,find my bill from {{Person Name}},BL,check_invoice,INVOICE,1,0,0,0,0
+48,check the available shipping options,BL,delivery_options,DELIVERY,1,0,0,0,0
+49,can uhelp me resetting the password of my user profile,BILQ,recover_password,ACCOUNT,1,0,0,0,0
+50,want help to see what paymentmethods are allowed,BLQZ,check_payment_methods,PAYMENT,1,0,1,0,0
+51,help locating purchase {{Order Number}},BL,track_order,ORDER,1,0,0,0,0
+52,I call to see when my package is going to arrive,BL,delivery_period,DELIVERY,1,0,0,0,0
+53,I need help to see the current status of order {{Order Number}},BL,track_order,ORDER,1,0,0,0,0
+54,can I change to the gold account?,BIL,switch_account,ACCOUNT,1,0,0,0,0
+55,do you have a method to submit a review for your products?,BIL,review,FEEDBACK,1,0,0,0,0
+56,help seeing the allowed payment modalities,BL,check_payment_methods,PAYMENT,1,0,0,0,0
+57,I do not know what I need to do to contact an operator,BEL,contact_human_agent,CONTACT,1,0,0,0,0
+58,I need assistance seeing how long the goddamn refunds take,BLW,check_refund_policy,REFUND,0,1,0,0,0
+59,where do I restore the PIN of my user account?,BIL,recover_password,ACCOUNT,1,0,0,0,0
+60,I want help checking the accepted payment modalities,BL,check_payment_methods,PAYMENT,1,0,0,0,0
+61,how do I chat with a fucking person?,BILW,contact_human_agent,CONTACT,0,1,0,0,0
+62,"I have got to talk to customer service, how can I do it?",BCIL,contact_customer_service,CONTACT,1,0,0,0,0
+63,could ya help me cancel the {{Account Category}} account,BILPQ,delete_account,ACCOUNT,2,0,0,0,0
+64,I have to see the ETA of the purchase {{Order Number}},BL,track_order,ORDER,1,0,0,0,0
+65,I do not know what I need to do to download the bill #12588,BEL,get_invoice,INVOICE,1,0,0,0,0
+66,od ya deliver to {{Delivery Country}},BIQSZ,delivery_options,DELIVERY,1,0,1,0,0
+67,I need assistance to report a trouble with online payments,BLM,payment_issue,PAYMENT,1,0,0,0,0
+68,how to edit order {{Order Number}}?,BIL,change_order,ORDER,1,0,0,0,0
+69,is it possible to remove my {{Account Category}} account ?,BILZ,delete_account,ACCOUNT,1,0,1,0,0
+70,reset the key of my profile,BL,recover_password,ACCOUNT,1,0,0,0,0
+71,I would like to change to the {{Account Type}} account,BLP,switch_account,ACCOUNT,2,0,0,0,0
+72,"I have to talk to customer assistance, I need help",BCL,contact_customer_service,CONTACT,1,0,0,0,0
+73,I'd like to download invoice #85632 how could i do it,BCILPQ,get_invoice,INVOICE,2,0,0,0,0
+74,how can i get invoice #37777,BIQ,get_invoice,INVOICE,1,0,0,0,0
+75,correct information on {{Account Type}} account,BKL,edit_account,ACCOUNT,1,0,0,1,0
+76,I do not know how I can speak to an agent,BEL,contact_human_agent,CONTACT,1,0,0,0,0
+77,I try to check in which cases can I ask for my money back,BL,check_refund_policy,REFUND,1,0,0,0,0
+78,how do I create a standard account for my daughter?,BIL,create_account,ACCOUNT,1,0,0,0,0
+79,I do not know how  I can reset my access key,BELZ,recover_password,ACCOUNT,1,0,1,0,0
+80,help to give a quick look at my invoice #37777,BL,check_invoice,INVOICE,1,0,0,0,0
+81,help to switch to the premium account,B,switch_account,ACCOUNT,1,0,0,0,0
+82,can I report an issue with signup?,BIL,registration_problems,ACCOUNT,1,0,0,0,0
+83,how to check bill #00108?,BIL,check_invoice,INVOICE,1,0,0,0,0
+84,what do I need to do to call customer assistance?,BIL,contact_customer_service,CONTACT,1,0,0,0,0
+85,i do not know what i need to do to earn some of ur article,BELMQ,place_order,ORDER,1,0,0,0,0
+86,need to file an fucking consumer claim can i get some help,BCILQWZ,complaint,FEEDBACK,0,1,1,0,0
+87,I would like to modify my address,BLP,change_shipping_address,SHIPPING,2,0,0,0,0
+88,i have paid {{Currency Symbol}}{{Refund Amount}} for this item help me to receive a refund,BCELMQV,get_refund,REFUND,1,0,0,0,0
+89,change information on standard account,BKL,edit_account,ACCOUNT,1,0,0,1,0
+90,I need help to give a quick look at the bill from {{Person Name}},BL,check_invoice,INVOICE,1,0,0,0,0
+91,I have a trouble trying to change the shipping address,BL,change_shipping_address,SHIPPING,1,0,0,0,0
+92,assistance checking the termination fees,BLM,check_cancellation_fee,CANCEL,1,0,0,0,0
+93,i dont know how i can see the options for shipping,BLQ,delivery_options,DELIVERY,1,0,0,0,0
+94,could you help me to see how soon can I expect the item?,BILP,delivery_period,DELIVERY,2,0,0,0,0
+95,edit info on standard account,BKLQ,edit_account,ACCOUNT,1,0,0,1,0
+96,help talking with an agent,BL,contact_human_agent,CONTACT,1,0,0,0,0
+97,assistance editing my  delivery address,BLZ,change_shipping_address,SHIPPING,1,0,1,0,0
+98,I don't know how I can get my invoice from {{Person Name}},BL,get_invoice,INVOICE,1,0,0,0,0
+99,help to contact a person,BL,contact_human_agent,CONTACT,1,0,0,0,0
+100,i have got to look for bill #85632,BLQ,check_invoice,INVOICE,1,0,0,0,0
+101,I try to seethe status of purchase {{Order Number}},BLZ,track_order,ORDER,1,0,1,0,0
+102,i dont know what to do to getmy bill #37777,BLQZ,get_invoice,INVOICE,1,0,1,0,0
+103,need to update the info included on my profile how to do it,BCILQ,edit_account,ACCOUNT,1,0,0,0,0
+104,can you show me what goddamn payment options you accept?,BILW,check_payment_methods,PAYMENT,0,1,0,0,0
+105,i have problems setting the new delivery address up,BLMQ,set_up_shipping_address,SHIPPING,1,0,0,0,0
+106,i do not want purchase {{Order Number}},BELNQ,cancel_order,ORDER,1,0,0,0,1
+107,can you show me in what situations can I ask for refunds?,BIL,check_refund_policy,REFUND,1,0,0,0,0
+108,can you help me to take a quick look at my bill #85632?,BIL,check_invoice,INVOICE,1,0,0,0,0
+109,i have paid {{Currency Symbol}}{{Refund Amount}} for this item i wanna obtai a rebate,BCELMQVZ,get_refund,REFUND,1,0,1,0,0
+110,need help seeing at what time I can call customer assistance,BLQ,contact_customer_service,CONTACT,1,0,0,0,0
+111,i need help canceling my company newsletter subsctiption,BLQZ,newsletter_subscription,SUBSCRIPTION,1,0,1,0,0
+112,where could I order a product?,BILP,place_order,ORDER,2,0,0,0,0
+113,I do not know what I need to do to download the bill #85632,BEL,get_invoice,INVOICE,1,0,0,0,0
+114,I want help seeing what hours I can call customer assistance,BL,contact_customer_service,CONTACT,1,0,0,0,0
+115,I do not know how to see the early termination charge,BEL,check_cancellation_fee,CANCEL,1,0,0,0,0
+116,I do not know what I need to do to look for bill #37777,BEL,check_invoice,INVOICE,1,0,0,0,0
+117,can ya help me give a quick look at my bill #85632,BILQ,check_invoice,INVOICE,1,0,0,0,0
+118,I want assistance to delete a bloody gold account,BLW,delete_account,ACCOUNT,0,1,0,0,0
+119,i want assistance to check the methods for shipping,BLQ,delivery_options,DELIVERY,1,0,0,0,0
+120,is it possible to earn an article?,BIL,place_order,ORDER,1,0,0,0,0
+121,how can I inform of a  payment issue?,BILZ,payment_issue,PAYMENT,1,0,1,0,0
+122,could uhelp me correct order {{Order Number}},BILPQ,change_order,ORDER,2,0,0,0,0
+123,I want help canceling the standard account,BL,delete_account,ACCOUNT,1,0,0,0,0
+124,where to shop an item?,BIL,place_order,ORDER,1,0,0,0,0
+125,assistance to report troubles with payments,BLM,payment_issue,PAYMENT,1,0,0,0,0
+126,information about cancel the company newsletter subscription,B,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+127,where do i get the bills from {{Person Name}},BILMQ,get_invoice,INVOICE,1,0,0,0,0
+128,can you help me check what delivery methods are available?,BILM,delivery_options,DELIVERY,1,0,0,0,0
+129,need help downloading the bill from {{Person Name}},BLQ,get_invoice,INVOICE,1,0,0,0,0
+130,I have to make a consumer reclamation against your company,BL,complaint,FEEDBACK,1,0,0,0,0
+131,"I entered a wrong address, will you help me update it?",BCILP,change_shipping_address,SHIPPING,2,0,0,0,0
+132,tell me at what time I can reach customer support,BL,contact_customer_service,CONTACT,1,0,0,0,0
+133,is it possible to enter the secondary shipping address?,BIL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+134,i no longer want order {{Order Number}},BLNQ,cancel_order,ORDER,1,0,0,0,1
+135,I do not know how I can switch to tbe {{Account Category}} account,BEZ,switch_account,ACCOUNT,1,0,1,0,0
+136,want assistance to write a comment about your company,BLQ,review,FEEDBACK,1,0,0,0,0
+137,I can't see if there is anything new on the refund,BLN,track_refund,REFUND,1,0,0,0,1
+138,"I want to see what shipment options I can choose, help me",BCLM,delivery_options,DELIVERY,1,0,0,0,0
+139,want help to check the early termination penalties,BLMQ,check_cancellation_fee,CANCEL,1,0,0,0,0
+140,need to update my address,BLQ,change_shipping_address,SHIPPING,1,0,0,0,0
+141,"I have to call customer suupport, could I get some help?",BCILPZ,contact_customer_service,CONTACT,2,0,1,0,0
+142,help me check the terminatio charges,BLMZ,check_cancellation_fee,CANCEL,1,0,1,0,0
+143,I need assistance changing to the premium account,BL,switch_account,ACCOUNT,1,0,0,0,0
+144,help to chat with a damn operator,BLW,contact_human_agent,CONTACT,0,1,0,0,0
+145,i do not know what i have to do to check the withdrawal fee,BELQ,check_cancellation_fee,CANCEL,1,0,0,0,0
+146,deliverids to {{Delivery Country}},BSZ,delivery_options,DELIVERY,1,0,1,0,0
+147,switching to gold account,BK,switch_account,ACCOUNT,1,0,0,1,0
+148,help me lodging a customer complaint against your business,BL,complaint,FEEDBACK,1,0,0,0,0
+149,create new {{Account Category}} account for daughter,BKL,create_account,ACCOUNT,1,0,0,1,0
+150,need help cancelling purchase {{Order Number}},BLQ,cancel_order,ORDER,1,0,0,0,0
+151,how to repirt problems with online payments,BILMQZ,payment_issue,PAYMENT,1,0,1,0,0
+152,I do not know what to do to get the invoice #37777,BE,get_invoice,INVOICE,1,0,0,0,0
+153,i want information about my password retrieval,BLQ,recover_password,ACCOUNT,1,0,0,0,0
+154,I do not know what I need to do to remove my gold account,BEL,delete_account,ACCOUNT,1,0,0,0,0
+155,errors entering the secondary delivery address,BLM,set_up_shipping_address,SHIPPING,1,0,0,0,0
+156,"I have to edit my account, how could I do it?",BCIP,edit_account,ACCOUNT,2,0,0,0,0
+157,wanna acquire several of ur product how do i do it,BCILMQ,place_order,ORDER,1,0,0,0,0
+158,I tryh to check the termination fees,BLMZ,check_cancellation_fee,CANCEL,1,0,1,0,0
+159,"I can no longer afford order {{Order Number}}, can I cancel it?",BCILN,cancel_order,ORDER,1,0,0,0,1
+160,I need help to obtain refunds of money,BLM,get_refund,REFUND,1,0,0,0,0
+161,awnt help to receive your corporate newsletter,BLQZ,newsletter_subscription,SUBSCRIPTION,1,0,1,0,0
+162,i cant switch to the premium account,BNQ,switch_account,ACCOUNT,1,0,0,0,1
+163,i need help trying to edit my shipping address,BLQ,change_shipping_address,SHIPPING,1,0,0,0,0
+164,I want help seeing what payment options are allowed,BL,check_payment_methods,PAYMENT,1,0,0,0,0
+165,I want help informing of a problem with signup,BL,registration_problems,ACCOUNT,1,0,0,0,0
+166,where can I get information about updating my address?,BIL,change_shipping_address,SHIPPING,1,0,0,0,0
+167,where to pucrhase some items,BILMQZ,place_order,ORDER,1,0,1,0,0
+168,how can i get my invoice from {{Person Name}},BILQ,get_invoice,INVOICE,1,0,0,0,0
+169,hwat do i need to do to contact an operator,BILQZ,contact_human_agent,CONTACT,1,0,1,0,0
+170,how can I buy some products?,BILM,place_order,ORDER,1,0,0,0,0
+171,can I make a claim?,BIL,complaint,FEEDBACK,1,0,0,0,0
+172,wanna swap some items of order {{Order Number}},BLMQ,change_order,ORDER,1,0,0,0,0
+173,can I open a freemium account?,BIL,create_account,ACCOUNT,1,0,0,0,0
+174,need help to check if there are any news on the restitution,BLMQ,track_refund,REFUND,1,0,0,0,0
+175,can uhelp me to see how long reimbursements usually take,BILQ,check_refund_policy,REFUND,1,0,0,0,0
+176,i want help to list ur payment modalities,BLQ,check_payment_methods,PAYMENT,1,0,0,0,0
+177,i do not know how i can see the ETA of purcyase {{Order Number}},BELQZ,track_order,ORDER,1,0,1,0,0
+178,can you help me resetting my key?,BIL,recover_password,ACCOUNT,1,0,0,0,0
+179,open a freemium account,BL,create_account,ACCOUNT,1,0,0,0,0
+180,cancel the subscription to the corporate newsletter,BL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+181,i try to make a bloody consumer complaint against ur company,BLQW,complaint,FEEDBACK,0,1,0,0,0
+182,cancel purchase370795561790,BKLZ,cancel_order,ORDER,1,0,1,1,0
+183,editing {{Account Category}} account,BKL,edit_account,ACCOUNT,1,0,0,1,0
+184,updatikng data on {{Account Category}} account,BLZ,edit_account,ACCOUNT,1,0,1,0,0
+185,I do not know how to check the delivery methods,BEL,delivery_options,DELIVERY,1,0,0,0,0
+186,how do I check when will my purchase arrive?,BIL,delivery_period,DELIVERY,1,0,0,0,0
+187,can i sign up to the company newsletter,BILQ,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+188,"I made a mistake, I want help editing order {{Order Number}}",BCL,change_order,ORDER,1,0,0,0,0
+189,i want assistance to restore my goddamn account pin,BLQW,recover_password,ACCOUNT,0,1,0,0,0
+190,i dont know how i can submit my feedback for ur products,BLQ,review,FEEDBACK,1,0,0,0,0
+191,I try to change to the {{Account Category}} account,BL,switch_account,ACCOUNT,1,0,0,0,0
+192,i want assistance solving a trouble with online payment,BLQ,payment_issue,PAYMENT,1,0,0,0,0
+193,"I want to see when will my product arrive, I need help",BCL,delivery_period,DELIVERY,1,0,0,0,0
+194,I need help retrieving my account access key,BL,recover_password,ACCOUNT,1,0,0,0,0
+195,I need help speaking with a live agent,BL,contact_human_agent,CONTACT,1,0,0,0,0
+196,how to use the {{Account Category}} profile?,BIL,switch_account,ACCOUNT,1,0,0,0,0
+197,I can't pay for purchase {{Order Number}},BLN,cancel_order,ORDER,1,0,0,0,1
+198,"I want to submit feedback about a product, how to do it?",BCIL,review,FEEDBACK,1,0,0,0,0
+199,I do not know what I have to do to delete a standard account,BEL,delete_account,ACCOUNT,1,0,0,0,0
+200,I try to change the delivery address,BL,change_shipping_address,SHIPPING,1,0,0,0,0
+201,what do i need to do to leave an opinion for a service,BILQ,review,FEEDBACK,1,0,0,0,0
+202,"I made a mistake, help me to change purchase {{Order Number}}",BCL,change_order,ORDER,1,0,0,0,0
+203,"I have got to modify purchase {{Order Number}}, I need help",BCL,change_order,ORDER,1,0,0,0,0
+204,wqhere can i order some of ur article,BILMQZ,place_order,ORDER,1,0,1,0,0
+205,i dont know how i can leave feedback for ur products,BLQ,review,FEEDBACK,1,0,0,0,0
+206,I don't know how I can see my compensation status,BL,track_refund,REFUND,1,0,0,0,0
+207,how do I see the ETA of the order {{Order Number}}?,BIL,track_order,ORDER,1,0,0,0,0
+208,help checking your accepted payment options,BL,check_payment_methods,PAYMENT,1,0,0,0,0
+209,"I paid {{Refund Amount}} dollars for an item, I need to receive a rebate",BCLM,get_refund,REFUND,1,0,0,0,0
+210,I want information about opening a {{Account Category}} account,BL,create_account,ACCOUNT,1,0,0,0,0
+211,how can i talk to customer assitance,BILQZ,contact_customer_service,CONTACT,1,0,1,0,0
+212,i dont know how i can write an opinion for a product,BLQ,review,FEEDBACK,1,0,0,0,0
+213,ned to locate order {{Order Number}} how could i do it,BCILPQZ,track_order,ORDER,2,0,1,0,0
+214,have a question about the termination of a Freemiumaccount,BLQZ,delete_account,ACCOUNT,1,0,1,0,0
+215,i dont want this artilce cancel order {{Order Number}},BCLNQZ,cancel_order,ORDER,1,0,1,0,1
+216,"I have to see your money back policy, I need help",BCL,check_refund_policy,REFUND,1,0,0,0,0
+217,where can I unsubscribe to your companynewsletter?,BILZ,newsletter_subscription,SUBSCRIPTION,1,0,1,0,0
+218,assistance to see in what situations can i ask for a refund,BLQ,check_refund_policy,REFUND,1,0,0,0,0
+219,I'm tryingto create a {{Account Category}} account,BLQZ,create_account,ACCOUNT,1,0,1,0,0
+220,i have to see how long i takes for my article to arrive,BLQZ,delivery_period,DELIVERY,1,0,1,0,0
+221,i have got to see the delivery methods how do i do it,BCILQ,delivery_options,DELIVERY,1,0,0,0,0
+222,I would like to make a customer claim against your business,BLP,complaint,FEEDBACK,2,0,0,0,0
+223,there are troubles modifying my shipping address,BLM,change_shipping_address,SHIPPING,1,0,0,0,0
+224,could I use the {{Account Category}} profile?,BILP,switch_account,ACCOUNT,2,0,0,0,0
+225,i want my rebate of money,BLQ,get_refund,REFUND,1,0,0,0,0
+226,what do I need to do to find my invoice #00108?,BI,check_invoice,INVOICE,1,0,0,0,0
+227,question about the lost password,BL,recover_password,ACCOUNT,1,0,0,0,0
+228,"you aren't helpful at all, will you direct to me an agent?",BCILP,contact_human_agent,CONTACT,2,0,0,0,0
+229,can ya help me to set my shippiong address up,BILQZ,set_up_shipping_address,SHIPPING,1,0,1,0,0
+230,i need assistance seeing the termination fees,BLMQ,check_cancellation_fee,CANCEL,1,0,0,0,0
+231,can I check at what time I can call customer service?,BIL,contact_customer_service,CONTACT,1,0,0,0,0
+232,i need assistance to create a platinum acfount for my fiance,BLQZ,create_account,ACCOUNT,1,0,1,0,0
+233,changing info on standard account,BKLQ,edit_account,ACCOUNT,1,0,0,1,0
+234,i need help rstoring the key of my profile,BLQZ,recover_password,ACCOUNT,1,0,1,0,0
+235,can you help me reset my profile access key?,BIL,recover_password,ACCOUNT,1,0,0,0,0
+236,I want help checking purchase {{Order Number}} current status,BL,track_order,ORDER,1,0,0,0,0
+237,I don't know how to reset the PIN of my user account,BL,recover_password,ACCOUNT,1,0,0,0,0
+238,I want to demand compensations of money,BLM,get_refund,REFUND,1,0,0,0,0
+239,wanna change a product of order {{Order Number}},BLQ,change_order,ORDER,1,0,0,0,0
+240,where to check at what time i can contact customer support,BILQ,contact_customer_service,CONTACT,1,0,0,0,0
+241,i dont know how to modify the data included on my profile,BLQ,edit_account,ACCOUNT,1,0,0,0,0
+242,I have to make a claim,BL,complaint,FEEDBACK,1,0,0,0,0
+243,I want to see in what cases can I ask for reimbursements,BL,check_refund_policy,REFUND,1,0,0,0,0
+244,I don't know what I have to do to modify my delivery address,BL,change_shipping_address,SHIPPING,1,0,0,0,0
+245,I have to check in what cases can I request reimbursements,BL,check_refund_policy,REFUND,1,0,0,0,0
+246,assistance to leave some feedback,BL,review,FEEDBACK,1,0,0,0,0
+247,I want assistance to check how long refunds usually take,B,check_refund_policy,REFUND,1,0,0,0,0
+248,assistance cancelling purchase {{Order Number}},BL,cancel_order,ORDER,1,0,0,0,0
+249,i cant change some items of order {{Order Number}},BMNQ,change_order,ORDER,1,0,0,0,1
+250,i want assistance talking to customer service,BLQ,contact_customer_service,CONTACT,1,0,0,0,0
+251,what do I need to do to write an opinion for a product?,BIL,review,FEEDBACK,1,0,0,0,0
+252,what do I need to do to set my shipping address up?,BIL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+253,i have to report sign-up issues,BLMQ,registration_problems,ACCOUNT,1,0,0,0,0
+254,correct data on standard account,BKL,edit_account,ACCOUNT,1,0,0,1,0
+255,how to leave a comment for your company?,BIL,review,FEEDBACK,1,0,0,0,0
+256,can you help me know if there are any updates on my refund?,BILM,track_refund,REFUND,1,0,0,0,0
+257,help me obtain a reimbursement,BL,get_refund,REFUND,1,0,0,0,0
+258,I want to chat with  a live agent,BLZ,contact_human_agent,CONTACT,1,0,1,0,0
+259,"I want to see your money back guarantee, how could I do it?",BCILP,check_refund_policy,REFUND,2,0,0,0,0
+260,I want to edit my address,BL,change_shipping_address,SHIPPING,1,0,0,0,0
+261,how to use the standard account,BIQ,switch_account,ACCOUNT,1,0,0,0,0
+262,I want assistance changing to the goddamn {{Account Category}} account,BLW,switch_account,ACCOUNT,0,1,0,0,0
+263,i need assistance submitting my feedback,BLQ,review,FEEDBACK,1,0,0,0,0
+264,I am trying to report errors with payments,BLM,payment_issue,PAYMENT,1,0,0,0,0
+265,i put my old address by mistake i need help updating it,BCLQ,change_shipping_address,SHIPPING,1,0,0,0,0
+266,can you give me information about editibg the address?,BILZ,change_shipping_address,SHIPPING,1,0,1,0,0
+267,uhave a free number to talk to customer support,BILQ,contact_customer_service,CONTACT,1,0,0,0,0
+268,can uhelp me to retrieve the pass of my account,BILQ,recover_password,ACCOUNT,1,0,0,0,0
+269,need assistance seeingg the termination charges,BLMQZ,check_cancellation_fee,CANCEL,1,0,1,0,0
+270,"my card did not work, help to inform of payment issues",BCELM,payment_issue,PAYMENT,1,0,0,0,0
+271,want help cancelling purchase {{Order Number}},BLQ,cancel_order,ORDER,1,0,0,0,0
+272,how to find invoice #37777,BIQ,check_invoice,INVOICE,1,0,0,0,0
+273,i have an error setting up my shipping address,BLQ,set_up_shipping_address,SHIPPING,1,0,0,0,0
+274,help me checking what hours I can call customer support,BL,contact_customer_service,CONTACT,1,0,0,0,0
+275,using standard accouny,BKZ,switch_account,ACCOUNT,1,0,1,1,0
+276,where can I report a problem with a signup?,BIL,registration_problems,ACCOUNT,1,0,0,0,0
+277,i try to see how long it takes for the purchase to arrive,BLQ,delivery_period,DELIVERY,1,0,0,0,0
+278,i have got to demand a reimbursement,BLQ,get_refund,REFUND,1,0,0,0,0
+279,i dont know how i can submit my secondary shipping address,BLQ,set_up_shipping_address,SHIPPING,1,0,0,0,0
+280,i aint registered can i create a {{Account Category}} account,BCILQ,create_account,ACCOUNT,1,0,0,0,0
+281,could ya help mw check ur reimbursement policy,BILPQZ,check_refund_policy,REFUND,2,0,1,0,0
+282,I want assistance to retrieve my profile PIN code,BL,recover_password,ACCOUNT,1,0,0,0,0
+283,i cant switch several aritcles of purchase {{Order Number}},BLMNQZ,change_order,ORDER,1,0,1,0,1
+284,where do I update the delivery address?,BIL,change_shipping_address,SHIPPING,1,0,0,0,0
+285,I don't know what to do to check the status of my rebate,BL,track_refund,REFUND,1,0,0,0,0
+286,can I open a {{Account Type}} account?,BIL,create_account,ACCOUNT,1,0,0,0,0
+287,there is an issue with my online registration,BEL,registration_problems,ACCOUNT,1,0,0,0,0
+288,I need help to talk with a live agent,BL,contact_human_agent,CONTACT,1,0,0,0,0
+289,I don't know how I can see when will my parcel arrive,BL,delivery_period,DELIVERY,1,0,0,0,0
+290,I want help to talk to a person,BL,contact_human_agent,CONTACT,1,0,0,0,0
+291,help me canceling purchase {{Order Number}},BL,cancel_order,ORDER,1,0,0,0,0
+292,i cant check if there is anything new on my restitution,BLNQ,track_refund,REFUND,1,0,0,0,1
+293,can ya help me making a claim against ur business,BILQ,complaint,FEEDBACK,1,0,0,0,0
+294,what shipping methods do I have?,BILM,delivery_options,DELIVERY,1,0,0,0,0
+295,help to check in what situations can I request reimbursments,BLZ,check_refund_policy,REFUND,1,0,1,0,0
+296,I need to demand my money back,BL,get_refund,REFUND,1,0,0,0,0
+297,need to set the damn delivery address up how can i  do it,BCILQWZ,set_up_shipping_address,SHIPPING,0,1,1,0,0
+298,i have got to see the shipping options help me,BCLQ,delivery_options,DELIVERY,1,0,0,0,0
+299,help to check the damn current status of the restitution,BLW,track_refund,REFUND,0,1,0,0,0
+300,i want a {{Account Category}} account for my dad how can i ceeate it,BCILQZ,create_account,ACCOUNT,1,0,1,0,0
+301,I don't want order {{Order Number}},BN,cancel_order,ORDER,1,0,0,0,1
+302,"I have to modify purchase {{Order Number}}, I need assistance",BCL,change_order,ORDER,1,0,0,0,0
+303,i have got to edit my delivery address,BLQ,change_shipping_address,SHIPPING,1,0,0,0,0
+304,help to call customer support,BL,contact_customer_service,CONTACT,1,0,0,0,0
+305,how to see what options for delivery are there?,BILM,delivery_options,DELIVERY,1,0,0,0,0
+306,I want assistance to sign up to the company newsletter,BL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+307,assistance making a consumer reclamation against ur company,BLQ,complaint,FEEDBACK,1,0,0,0,0
+308,I want to acquire several of your product,BLM,place_order,ORDER,1,0,0,0,0
+309,I want assistance to give a quick look at the invoice #37777,BL,check_invoice,INVOICE,1,0,0,0,0
+310,i dont know what i need to do to correct theaddress,BLQZ,change_shipping_address,SHIPPING,1,0,1,0,0
+311,I would like to unsubscribe to the company newsletter,BLP,newsletter_subscription,SUBSCRIPTION,2,0,0,0,0
+312,help me reporting problems with online payment,BLM,payment_issue,PAYMENT,1,0,0,0,0
+313,wanna see what delivery options are there i need help,BCLMQ,delivery_options,DELIVERY,1,0,0,0,0
+314,i have got to report an issue with sign-up,BLQ,registration_problems,ACCOUNT,1,0,0,0,0
+315,how  to list ur allowed payment modalities,BILQZ,check_payment_methods,PAYMENT,1,0,1,0,0
+316,I am trying to contact a agent,BZ,contact_human_agent,CONTACT,1,0,1,0,0
+317,can ya help me to request a refund of my money,BILQ,get_refund,REFUND,1,0,0,0,0
+318,what do i need to do to use the standard profile,BILQ,switch_account,ACCOUNT,1,0,0,0,0
+319,change to the freemium account,BL,switch_account,ACCOUNT,1,0,0,0,0
+320,I don't know how I can cancel a freemium account,BL,delete_account,ACCOUNT,1,0,0,0,0
+321,I do not know what I need to do to close my {{Account Type}} account,BEL,delete_account,ACCOUNT,1,0,0,0,0
+322,i need help to lodge a customer claim agaisnt ur business,BLQZ,complaint,FEEDBACK,1,0,1,0,0
+323,how do i lodge a consumer complaint,BILQ,complaint,FEEDBACK,1,0,0,0,0
+324,I don't know what to do to chat with somebody,BL,contact_human_agent,CONTACT,1,0,0,0,0
+325,I do not know what to do to submit a bloody delivery address,BELW,set_up_shipping_address,SHIPPING,0,1,0,0,0
+326,I want help to swap several products of purchase {{Order Number}},BLM,change_order,ORDER,1,0,0,0,0
+327,receiving rebate,BKL,get_refund,REFUND,1,0,0,1,0
+328,I do not know what to do to check the payment methods,BEL,check_payment_methods,PAYMENT,1,0,0,0,0
+329,need to update my account can i get some help,BCILQ,edit_account,ACCOUNT,1,0,0,0,0
+330,want help creating a {{Account Category}} account,BLQ,create_account,ACCOUNT,1,0,0,0,0
+331,could you show me what shipping options are there?,BILMP,delivery_options,DELIVERY,2,0,0,0,0
+332,supports editnig my delivery address,BLMZ,change_shipping_address,SHIPPING,1,0,1,0,0
+333,can uhelp em to ask for rebates of money,BILMQZ,get_refund,REFUND,1,0,1,0,0
+334,where do I restore my PIN code?,BIL,recover_password,ACCOUNT,1,0,0,0,0
+335,I don't know what to do to look for bill #37777,BL,check_invoice,INVOICE,1,0,0,0,0
+336,I don't know how I can check the termination penalty,BL,check_cancellation_fee,CANCEL,1,0,0,0,0
+337,"I have to set a shipping address up, I need assistance",BCL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+338,I have a question about the deletion of my {{Account Type}} account,BL,delete_account,ACCOUNT,1,0,0,0,0
+339,i do not know what i have to do to contac a live agent,BELQZ,contact_human_agent,CONTACT,1,0,1,0,0
+340,where can i order a few of ur product,BILMQ,place_order,ORDER,1,0,0,0,0
+341,assistance sending my feedback about your services,BL,review,FEEDBACK,1,0,0,0,0
+342,need assistance unsubscribing from your newsletterr,BLQZ,newsletter_subscription,SUBSCRIPTION,1,0,1,0,0
+343,how can i make a consumer complaint against ur company,BILQ,complaint,FEEDBACK,1,0,0,0,0
+344,I don't know wat I have to do to download my bill #00108,BLZ,get_invoice,INVOICE,1,0,1,0,0
+345,I need to retrieve my user accountPIN,BLZ,recover_password,ACCOUNT,1,0,1,0,0
+346,I want help closing my pro account,BL,delete_account,ACCOUNT,1,0,0,0,0
+347,how do i shop an item,BILQ,place_order,ORDER,1,0,0,0,0
+348,I don't know how I could report errors with a registration,BLMP,registration_problems,ACCOUNT,2,0,0,0,0
+349,modify information on freemium account,BKL,edit_account,ACCOUNT,1,0,0,1,0
+350,tell me about cancellling the subscription to ur newsletter,BLQZ,newsletter_subscription,SUBSCRIPTION,1,0,1,0,0
+351,find information about modifying the shipping address,BL,change_shipping_address,SHIPPING,1,0,0,0,0
+352,can I check the bloody payment methods?,BILW,check_payment_methods,PAYMENT,0,1,0,0,0
+353,i have to download the invoice from {{Person Name}},BLQ,get_invoice,INVOICE,1,0,0,0,0
+354,need help making a consumer complaint against ur company,BLQ,complaint,FEEDBACK,1,0,0,0,0
+355,needto do a purchase can i get some help,BCILQZ,place_order,ORDER,1,0,1,0,0
+356,help me to see how long it takes for the article to arrive,BL,delivery_period,DELIVERY,1,0,0,0,0
+357,"I would like to locate my bill #12588, can you help me?",BCILP,check_invoice,INVOICE,2,0,0,0,0
+358,what do i need to do to ask for a rebate of money,BILQ,get_refund,REFUND,1,0,0,0,0
+359,I need assistance modifying my shipping address,BL,change_shipping_address,SHIPPING,1,0,0,0,0
+360,I want help checking when my shipment is going to arrive,BL,delivery_period,DELIVERY,1,0,0,0,0
+361,I try to correct order {{Order Number}},BL,change_order,ORDER,1,0,0,0,0
+362,"I made a mistake, I have got to modify purchase {{Order Number}}",BCL,change_order,ORDER,1,0,0,0,0
+363,help me retrieve my user account PIN,BL,recover_password,ACCOUNT,1,0,0,0,0
+364,tell me about my subscription to your newsletrer,BLZ,newsletter_subscription,SUBSCRIPTION,1,0,1,0,0
+365,where can I submit my feedback for your company?,BIL,review,FEEDBACK,1,0,0,0,0
+366,"I have got to change to the pro account, I need assistance",BCL,switch_account,ACCOUNT,1,0,0,0,0
+367,updating information on standard account,BKL,edit_account,ACCOUNT,1,0,0,1,0
+368,how can I see how long the shipping takes?,BIL,delivery_period,DELIVERY,1,0,0,0,0
+369,where do I make a purchase?,BI,place_order,ORDER,1,0,0,0,0
+370,problem with {{Account Category}} acount deletions,BLMZ,delete_account,ACCOUNT,1,0,1,0,0
+371,i dont know how i could reset the pin of my profile,BLPQ,recover_password,ACCOUNT,2,0,0,0,0
+372,where do I cancel purchase {{Order Number}}?,BIL,cancel_order,ORDER,1,0,0,0,0
+373,I want help seeing your payment methods,BL,check_payment_methods,PAYMENT,1,0,0,0,0
+374,help seeing if there are any updates on my reimbursement,BLM,track_refund,REFUND,1,0,0,0,0
+375,help to use the standard profile,BL,switch_account,ACCOUNT,1,0,0,0,0
+376,i need asssistance getting my bill #37777,BLQZ,get_invoice,INVOICE,1,0,1,0,0
+377,are there cancellation penalties,BILMQ,check_cancellation_fee,CANCEL,1,0,0,0,0
+378,"I am not registered, how to create a {{Account Type}} account with you?",BCEIL,create_account,ACCOUNT,1,0,0,0,0
+379,have problems with canceling purchase {{Order Number}},BLMQ,cancel_order,ORDER,1,0,0,0,0
+380,cancelling purchase {{Order Number}},BKL,cancel_order,ORDER,1,0,0,1,0
+381,help me to check what shipping methods you offer,BLM,delivery_options,DELIVERY,1,0,0,0,0
+382,i try to cancel purchase {{Order Number}},BLQ,cancel_order,ORDER,1,0,0,0,0
+383,i need assistance acquiring some rpoducts,BLMQZ,place_order,ORDER,1,0,1,0,0
+384,order 00123842current status,BKLZ,track_order,ORDER,1,0,1,1,0
+385,I want help to leave feedback for your services,BL,review,FEEDBACK,1,0,0,0,0
+386,changing to platinum account,BKL,switch_account,ACCOUNT,1,0,0,1,0
+387,I do not know how to see the status of my rebate,BEL,track_refund,REFUND,1,0,0,0,0
+388,i have paid {{Currency Symbol}}{{Refund Amount}} for this item i need help to get a refund,BCELMQV,get_refund,REFUND,1,0,0,0,0
+389,where can I get information about my lost PIN code?,BIL,recover_password,ACCOUNT,1,0,0,0,0
+390,i have got to edit my personal information can uhelp me,BCIQ,edit_account,ACCOUNT,1,0,0,0,0
+391,changing informatiln on {{Account Category}} account,BKLZ,edit_account,ACCOUNT,1,0,1,1,0
+392,could I check the withdrawal charge?,BILP,check_cancellation_fee,CANCEL,2,0,0,0,0
+393,how can I receive your newsletter?,BIL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+394,need help to see how sono can I expect my item,BLQZ,delivery_period,DELIVERY,1,0,1,0,0
+395,what do I have to do to lodge a complaint?,BIL,complaint,FEEDBACK,1,0,0,0,0
+396,want help to switch to the freemium account,BQ,switch_account,ACCOUNT,1,0,0,0,0
+397,I do not know what I have to do to check my bill #37777,BEL,check_invoice,INVOICE,1,0,0,0,0
+398,I'm looking for information about creating platinum accounts,BEMQ,create_account,ACCOUNT,1,0,0,0,0
+399,"I ordered some products, how to cancel purchase {{Order Number}}?",BCILM,cancel_order,ORDER,1,0,0,0,0
+400,removing platinum account,BKL,delete_account,ACCOUNT,1,0,0,1,0
+401,I do not know how I can check your money back guarantee,BEL,check_refund_policy,REFUND,1,0,0,0,0
+402,I cannot track the reimbursement,BELN,track_refund,REFUND,1,0,0,0,1
+403,need to report a troubled with payments,BLMQZ,payment_issue,PAYMENT,1,0,1,0,0
+404,can you help me speaking with an assistant?,BIL,contact_human_agent,CONTACT,1,0,0,0,0
+405,I need help to obtain a reimbursement of my money,BL,get_refund,REFUND,1,0,0,0,0
+406,"I want to update order {{Order Number}}, how do I do it?",BCIL,change_order,ORDER,1,0,0,0,0
+407,update info on premium account,BKLQ,edit_account,ACCOUNT,1,0,0,1,0
+408,want help to make a complaint against your business,BLQ,complaint,FEEDBACK,1,0,0,0,0
+409,help me using the standard profile,BL,switch_account,ACCOUNT,1,0,0,0,0
+410,i need help cancelling order {{Order Number}},BQ,cancel_order,ORDER,1,0,0,0,0
+411,add something to order {{Order Number}},BK,change_order,ORDER,1,0,0,1,0
+412,could I set a shipping address up?,BILP,set_up_shipping_address,SHIPPING,2,0,0,0,0
+413,need help obtaining restitutions of my money,BLMQ,get_refund,REFUND,1,0,0,0,0
+414,I need assistance to shop a few of your item,BLM,place_order,ORDER,1,0,0,0,0
+415,reporting issue with registration,BK,registration_problems,ACCOUNT,1,0,0,1,0
+416,I try to see at what time I can reach customer support,BL,contact_customer_service,CONTACT,1,0,0,0,0
+417,assistance to make a customer claim,BL,complaint,FEEDBACK,1,0,0,0,0
+418,I don't know how I can download the bills from {{Person Name}},BLM,get_invoice,INVOICE,1,0,0,0,0
+419,editdata on {{Account Type}} account,BKLZ,edit_account,ACCOUNT,1,0,1,1,0
+420,can you help me make a reclamation against your company?,BIL,complaint,FEEDBACK,1,0,0,0,0
+421,problem with the termination of my {{Account Category}} account,BL,delete_account,ACCOUNT,1,0,0,0,0
+422,"I paid {{Currency Symbol}}{{Refund Amount}} for this product, I need to get a rebate",BCLM,get_refund,REFUND,1,0,0,0,0
+423,where do I know if there is anything wrong with my rebate?,BIL,track_refund,REFUND,1,0,0,0,0
+424,I need help to see the cancellation fee,BL,check_cancellation_fee,CANCEL,1,0,0,0,0
+425,I do not know what I have to do to close a {{Account Type}} account,BEL,delete_account,ACCOUNT,1,0,0,0,0
+426,help me see in what cases can i ask for a refund,BLQ,check_refund_policy,REFUND,1,0,0,0,0
+427,i need help to report problems with registrations,BLMQ,registration_problems,ACCOUNT,1,0,0,0,0
+428,help me contacting customer assistance,BL,contact_customer_service,CONTACT,1,0,0,0,0
+429,I try to edit purchase {{Order Number}},BL,change_order,ORDER,1,0,0,0,0
+430,available payment modalities,BKL,check_payment_methods,PAYMENT,1,0,0,1,0
+431,help me to see how long reimbursements take,BL,check_refund_policy,REFUND,1,0,0,0,0
+432,i want assistance to unsubscribe to the company newsletter,BLQ,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+433,assistance to talk with customer support,BL,contact_customer_service,CONTACT,1,0,0,0,0
+434,can you help me downloading my bill #85632?,BIL,get_invoice,INVOICE,1,0,0,0,0
+435,I need to know if there is anything new on the restitution,BL,track_refund,REFUND,1,0,0,0,0
+436,issues with payment,BKM,payment_issue,PAYMENT,1,0,0,1,0
+437,need assistance with a address update,BLQZ,change_shipping_address,SHIPPING,1,0,1,0,0
+438,want assistance to make a consumer claim against ur business,BLQ,complaint,FEEDBACK,1,0,0,0,0
+439,I don't know what to do to submit the new delivery address,BL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+440,i dont know what to do to notify of sign-up issues,BLMQ,registration_problems,ACCOUNT,1,0,0,0,0
+441,I would like information about my {{Account Type}} account cancellation,BLP,delete_account,ACCOUNT,2,0,0,0,0
+442,can you help me contact osmeone?,BILZ,contact_human_agent,CONTACT,1,0,1,0,0
+443,I don't know how I can create a standard account for my dad,BL,create_account,ACCOUNT,1,0,0,0,0
+444,where can i lodge a customer reclaation against ur business,BILQZ,complaint,FEEDBACK,1,0,1,0,0
+445,need help canging to the premium account,BLQZ,switch_account,ACCOUNT,1,0,1,0,0
+446,i have got to demand restitutions of my money,BLMQ,get_refund,REFUND,1,0,0,0,0
+447,I want assistance to see what payment options are accepted,BL,check_payment_methods,PAYMENT,1,0,0,0,0
+448,I dln't know how I can see the termination penalties,BLMZ,check_cancellation_fee,CANCEL,1,0,1,0,0
+449,how to set the delivery address up?,BIL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+450,is it possible to check the termination charge?,BIL,check_cancellation_fee,CANCEL,1,0,0,0,0
+451,want assistance to report a sign-up error,BLQ,registration_problems,ACCOUNT,1,0,0,0,0
+452,I need help to set my secondeary shipping address up,BLZ,set_up_shipping_address,SHIPPING,1,0,1,0,0
+453,I want to check at what time I can call customer assistance,BL,contact_customer_service,CONTACT,1,0,0,0,0
+454,where to see the termination charges,BILMQ,check_cancellation_fee,CANCEL,1,0,0,0,0
+455,I don't know how I could set up my shipping address,BLP,set_up_shipping_address,SHIPPING,2,0,0,0,0
+456,assistance deleting the secondary account,BL,delete_account,ACCOUNT,1,0,0,0,0
+457,i want assistance to report signup issues,BLMQ,registration_problems,ACCOUNT,1,0,0,0,0
+458,I don't know how to cancel the {{Account Type}} account,BL,delete_account,ACCOUNT,1,0,0,0,0
+459,where do I order some items?,BILM,place_order,ORDER,1,0,0,0,0
+460,I do not know what to do to speak to customer support,BEL,contact_customer_service,CONTACT,1,0,0,0,0
+461,where do i set a different deivery address up,BILQZ,set_up_shipping_address,SHIPPING,1,0,1,0,0
+462,"I want to see the cancellation penalty, help me",BCL,check_cancellation_fee,CANCEL,1,0,0,0,0
+463,how to see ta what time I can call customer support?,BILZ,contact_customer_service,CONTACT,1,0,1,0,0
+464,assistance seeing if there is anything wrong with my refund,BL,track_refund,REFUND,1,0,0,0,0
+465,can I check how long the shipping takes?,BIL,delivery_period,DELIVERY,1,0,0,0,0
+466,I cannot see purchase {{Order Number}} goddamn current status,BELNW,track_order,ORDER,0,1,0,0,1
+467,can I swap something of order {{Order Number}}?,BIL,change_order,ORDER,1,0,0,0,0
+468,I want help to demand a rebate of money,BL,get_refund,REFUND,1,0,0,0,0
+469,is it possible to notify of an issue with signup,BILQ,registration_problems,ACCOUNT,1,0,0,0,0
+470,I do not know how I can see what options for delivery I have,BELM,delivery_options,DELIVERY,1,0,0,0,0
+471,i dont know what i have to do to get invoice #85632,BQ,get_invoice,INVOICE,1,0,0,0,0
+472,can you tell me more about my newsletter subscription?,BIL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+473,wanna open a {{Account Type}} acfcount,BLQZ,create_account,ACCOUNT,1,0,1,0,0
+474,I'm trying to see the current status of order {{Order Number}},BLQ,track_order,ORDER,1,0,0,0,0
+475,"I don't understand you, how could I chat with a damn person?",BCILPW,contact_human_agent,CONTACT,,1,0,0,0
+476,wanna reset the access key of my account,BLQ,recover_password,ACCOUNT,1,0,0,0,0
+477,I need to see the early exit fees,BLM,check_cancellation_fee,CANCEL,1,0,0,0,0
+478,i do not know how i could create a {{Account Type}} account,BELPQ,create_account,ACCOUNT,2,0,0,0,0
+479,what do I need to do to see my bill from {{Person Name}}?,BIL,check_invoice,INVOICE,1,0,0,0,0
+480,help me see when will mny purchase arrive,BLZ,delivery_period,DELIVERY,1,0,1,0,0
+481,error setting a secondary delivery address up,BL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+482,I am trying to check what delivery methods you offer,BLM,delivery_options,DELIVERY,1,0,0,0,0
+483,I can't report errors with signup,BLMN,registration_problems,ACCOUNT,1,0,0,0,1
+484,question about opening a {{Account Type}} account,BL,create_account,ACCOUNT,1,0,0,0,0
+485,I want assistance to looi for invoice #85632,BLZ,check_invoice,INVOICE,1,0,1,0,0
+486,is it possible to change to the {{Account Category}} account?,BIL,switch_account,ACCOUNT,1,0,0,0,0
+487,I expect a compensation of {{Currency Symbol}}{{Refund Amount}},BL,track_refund,REFUND,1,0,0,0,0
+488,i dont know how i can check the eta of my last delivery,BLQ,track_order,ORDER,1,0,0,0,0
+489,i have got to request reimbirsements of money,BLMQZ,get_refund,REFUND,1,0,1,0,0
+490,I don't know how to see when my item is going to arrive,BL,delivery_period,DELIVERY,1,0,0,0,0
+491,help me to check the early exit charge,BL,check_cancellation_fee,CANCEL,1,0,0,0,0
+492,can i place a damn order from {{Delivery Country}},BIQSW,delivery_options,DELIVERY,0,1,0,0,0
+493,want help reporting an error with online payments,BLMQ,payment_issue,PAYMENT,1,0,0,0,0
+494,i try to check what paymnt payment modalities ya accept,BLQZ,check_payment_methods,PAYMENT,1,0,1,0,0
+495,help to get my bill from {{Person Name}},BL,get_invoice,INVOICE,1,0,0,0,0
+496,I want to look for the invoice #12588,BL,check_invoice,INVOICE,1,0,0,0,0
+497,help me to leave an opinion about your products,BL,review,FEEDBACK,1,0,0,0,0
+498,I need assistance to file a consumer claim,BL,complaint,FEEDBACK,1,0,0,0,0
+499,i do not know what to do to shop several of ur item,BELMQ,place_order,ORDER,1,0,0,0,0
+500,help filing a consumer complaint against your organization,BL,complaint,FEEDBACK,1,0,0,0,0
+501,ETA of ordr {{Order Number}},BKZ,track_order,ORDER,1,0,1,1,0
+502,can I talk to customer service?,BIL,contact_customer_service,CONTACT,1,0,0,0,0
+503,assistance to notify of a problem with registrations,BL,registration_problems,ACCOUNT,1,0,0,0,0
+504,help me check what goddamn shipping options are available,BLMW,delivery_options,DELIVERY,0,1,0,0,0
+505,I do not know what I have to do to get a refund,BE,get_refund,REFUND,1,0,0,0,0
+506,I don't know what to do to ertrieve the PIN of my user,BLZ,recover_password,ACCOUNT,1,0,1,0,0
+507,"I have to locate the bill from {{Person Name}}, I need assistance",BCL,check_invoice,INVOICE,1,0,0,0,0
+508,I need assistance checking how soon can I expect the package,BL,delivery_period,DELIVERY,1,0,0,0,0
+509,help me to remove a product from purchase {{Order Number}},BL,change_order,ORDER,1,0,0,0,0
+510,I do not know how I can check when will my package arrive,BEL,delivery_period,DELIVERY,1,0,0,0,0
+511,what do i need to do to change to the {{Account Category}} account,BILQ,switch_account,ACCOUNT,1,0,0,0,0
+512,I try to check at what time I can call customer service,BL,contact_customer_service,CONTACT,1,0,0,0,0
+513,i dont know how to correct the data included on my account,BLQ,edit_account,ACCOUNT,1,0,0,0,0
+514,can i see what payment payment modalities are available,BILQ,check_payment_methods,PAYMENT,1,0,0,0,0
+515,I want information about my standard account termination,BL,delete_account,ACCOUNT,1,0,0,0,0
+516,is it possible to see the eta of order {{Order Number}},BILQ,track_order,ORDER,1,0,0,0,0
+517,would it be possible to find the bill #00108?,BILP,check_invoice,INVOICE,2,0,0,0,0
+518,i do not know how i can report an issue with sign-up,BELQ,registration_problems,ACCOUNT,1,0,0,0,0
+519,I need assistance modifying my bloody user account,BLW,edit_account,ACCOUNT,0,1,0,0,0
+520,I want assistance setting my secondary delivery address up,BL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+521,I'm waiting for a restitution of {{Refund Amount}} dollras,BLQZ,track_refund,REFUND,1,0,1,0,0
+522,see invoice from {{Person Name}},BKL,check_invoice,INVOICE,1,0,0,1,0
+523,want assistance cancelling purchase {{Order Number}},BLQ,cancel_order,ORDER,1,0,0,0,0
+524,what do I need to do to see what shipment methods I have?,BILM,delivery_options,DELIVERY,1,0,0,0,0
+525,I don't know what I have to do to open a {{Account Type}} account,BL,create_account,ACCOUNT,1,0,0,0,0
+526,I do not know how to retrieve my user account pwd,BELQ,recover_password,ACCOUNT,1,0,0,0,0
+527,"I have to check your payment options, can you help me?",BCIL,check_payment_methods,PAYMENT,1,0,0,0,0
+528,help solving a payment problem,BL,payment_issue,PAYMENT,1,0,0,0,0
+529,want help seeing in what cases can i request my money back,BLQ,check_refund_policy,REFUND,1,0,0,0,0
+530,how do I create a {{Account Type}} account for my daughter?,BIL,create_account,ACCOUNT,1,0,0,0,0
+531,where to know if there are any news on my compensation?,BILM,track_refund,REFUND,1,0,0,0,0
+532,I want assistance to inform of issues with payment,BLM,payment_issue,PAYMENT,1,0,0,0,0
+533,"I can't find the early exit penalty, will you help me?",BCILP,check_cancellation_fee,CANCEL,2,0,0,0,0
+534,help modifying the shipping address,BL,change_shipping_address,SHIPPING,1,0,0,0,0
+535,d uship to {{Delivery City}},BILQSZ,delivery_options,DELIVERY,1,0,1,0,0
+536,I want help to leave an opinion,BL,review,FEEDBACK,1,0,0,0,0
+537,help changing to the premium account,BL,switch_account,ACCOUNT,1,0,0,0,0
+538,correct details on platinum account,BKLM,edit_account,ACCOUNT,1,0,0,1,0
+539,how do I see the status of the reimbursement?,BIL,track_refund,REFUND,1,0,0,0,0
+540,can I report issues with sign-up?,BILM,registration_problems,ACCOUNT,1,0,0,0,0
+541,I'm trying to swap a  product of order {{Order Number}},BLQZ,change_order,ORDER,1,0,1,0,0
+542,I do not know how I can see purchase {{Order Number}} status,BEL,track_order,ORDER,1,0,0,0,0
+543,can you help me seeing how soon can I expect my order?,BIL,delivery_period,DELIVERY,1,0,0,0,0
+544,want assistance earning a product,BLQ,place_order,ORDER,1,0,0,0,0
+545,how to recover my bloody access key?,BILW,recover_password,ACCOUNT,0,1,0,0,0
+546,I do not know what to do to chat with a live agent,BEL,contact_human_agent,CONTACT,1,0,0,0,0
+547,how to restore the key of my profile,BILQ,recover_password,ACCOUNT,1,0,0,0,0
+548,need assistance to cancel the {{Account Type}} account,BLQ,delete_account,ACCOUNT,1,0,0,0,0
+549,i do not know how to cancel purchasw {{Order Number}},BELQZ,cancel_order,ORDER,1,0,1,0,0
+550,assistance canceling purchase {{Order Number}},BL,cancel_order,ORDER,1,0,0,0,0
+551,talking to live agent,BL,contact_human_agent,CONTACT,1,0,0,0,0
+552,I need to lodge a consumer complaint,BL,complaint,FEEDBACK,1,0,0,0,0
+553,would it be possible to cancel purchase {{Order Number}},BILPQ,cancel_order,ORDER,2,0,0,0,0
+554,I want to submit the edlivery address,BLZ,set_up_shipping_address,SHIPPING,1,0,1,0,0
+555,I do not know what I have to do to speak with someone,BEL,contact_human_agent,CONTACT,1,0,0,0,0
+556,I do not know how I can buy some of your article,BELM,place_order,ORDER,1,0,0,0,0
+557,how to unsubscribe from ur corporate newsletter,BILQ,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+558,have an question about the removal of my {{Account Type}} account,BLQZ,delete_account,ACCOUNT,1,0,1,0,0
+559,help me canceling the newsletter subscription,BL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+560,download bill #85632,BKL,get_invoice,INVOICE,1,0,0,1,0
+561,I have got to check what delivery methods I can choose,BLM,delivery_options,DELIVERY,1,0,0,0,0
+562,can you help me to check what shipment options you offer?,BILM,delivery_options,DELIVERY,1,0,0,0,0
+563,i need help seeing what hours i csn call customer service,BLQZ,contact_customer_service,CONTACT,1,0,1,0,0
+564,eqrn several of your item,BLMZ,place_order,ORDER,1,0,1,0,0
+565,how to use the premium profile?,BIL,switch_account,ACCOUNT,1,0,0,0,0
+566,I am trying to see the ET of the order {{Order Number}},BLZ,track_order,ORDER,1,0,1,0,0
+567,i try to demand a rebate,BLQ,get_refund,REFUND,1,0,0,0,0
+568,I want assistance to demand refunds of my  money,BLMZ,get_refund,REFUND,1,0,1,0,0
+569,I want assistance talking with customer service,BL,contact_customer_service,CONTACT,1,0,0,0,0
+570,do you have a section to send feedback about a service?,BIL,review,FEEDBACK,1,0,0,0,0
+571,I try to see what shipment options are available,BLM,delivery_options,DELIVERY,1,0,0,0,0
+572,i want assistance asking for a restitution of my money,BLQ,get_refund,REFUND,1,0,0,0,0
+573,I want help to check the early termination penalties,BLM,check_cancellation_fee,CANCEL,1,0,0,0,0
+574,sumbitting new shipping address,BKLZ,set_up_shipping_address,SHIPPING,1,0,1,1,0
+575,give em information about updating order {{Order Number}},BLZ,change_order,ORDER,1,0,1,0,0
+576,i don want order {{Order Number}} I'd like to cancel it,BCNPQZ,cancel_order,ORDER,2,0,1,0,1
+577,i want assistance to see how soon can i xepect the item,BLQZ,delivery_period,DELIVERY,1,0,1,0,0
+578,lodging claim against ur business,BLQ,complaint,FEEDBACK,1,0,0,0,0
+579,i do not know what to do to check the shipping options,BELQ,delivery_options,DELIVERY,1,0,0,0,0
+580,need assistance to get the bill from {{Person Name}},BLQ,get_invoice,INVOICE,1,0,0,0,0
+581,I would like to lodge a consumer complaint,BLP,complaint,FEEDBACK,2,0,0,0,0
+582,can I write a comment about your company?,BIL,review,FEEDBACK,1,0,0,0,0
+583,i do not know what to do to see the ETA of order {{Order Number}},BELQ,track_order,ORDER,1,0,0,0,0
+584,can ya help me to change to another account,BILQ,switch_account,ACCOUNT,1,0,0,0,0
+585,I have got to talk with a live agent,BL,contact_human_agent,CONTACT,1,0,0,0,0
+586,I am trying to cancel purchase {{Order Number}},BL,cancel_order,ORDER,1,0,0,0,0
+587,where to demand my money back?,BIL,get_refund,REFUND,1,0,0,0,0
+588,how to change something of order {{Order Number}},BIQ,change_order,ORDER,1,0,0,0,0
+589,i try to send feedback for a product,BLQ,review,FEEDBACK,1,0,0,0,0
+590,I need help receiving the fucking corporate newsletter,BLW,newsletter_subscription,SUBSCRIPTION,0,1,0,0,0
+591,can you help me reporting problems with online payment?,BILM,payment_issue,PAYMENT,1,0,0,0,0
+592,I am experiencing an problem registering,BELZ,registration_problems,ACCOUNT,1,0,1,0,0
+593,can you help me leaving a review about a product?,BIL,review,FEEDBACK,1,0,0,0,0
+594,could you show me in what situations can I request refunds?,BILP,check_refund_policy,REFUND,2,0,0,0,0
+595,how do I see your payment modalities?,BIL,check_payment_methods,PAYMENT,1,0,0,0,0
+596,"I don't understand you, I want help contacting a human agent",BCL,contact_human_agent,CONTACT,1,0,0,0,0
+597,I want assistance to receive restitutions of money,BLM,get_refund,REFUND,1,0,0,0,0
+598,i do not know what to do to modify the user data,BELQ,edit_account,ACCOUNT,1,0,0,0,0
+599,i can no longer pay fororder {{Order Number}} cancel it,BCLNQZ,cancel_order,ORDER,1,0,1,0,1
+600,can you tell me your available payment methods?,BIL,check_payment_methods,PAYMENT,1,0,0,0,0
+601,i dont know how i can asj for a rebate,BLQZ,get_refund,REFUND,1,0,1,0,0
+602,I do not know what I need to do to speak with someone,BEL,contact_human_agent,CONTACT,1,0,0,0,0
+603,"I don't have a premium account, I want to open one",BCLN,create_account,ACCOUNT,1,0,0,0,1
+604,need assistance acquiring several articles,BLMQ,place_order,ORDER,1,0,0,0,0
+605,I don't know how I can check the withdrawal penalty,BL,check_cancellation_fee,CANCEL,1,0,0,0,0
+606,help me listing the available payment options,BL,check_payment_methods,PAYMENT,1,0,0,0,0
+607,what do I have to do to track the refund?,BI,track_refund,REFUND,1,0,0,0,0
+608,uhave a way to send a reivew,BILQZ,review,FEEDBACK,1,0,1,0,0
+609,can i see the available payment methods,BILQ,check_payment_methods,PAYMENT,1,0,0,0,0
+610,can i check in which cases can i request reimbursements,BILQ,check_refund_policy,REFUND,1,0,0,0,0
+611,assistance to change to the freemium account,BL,switch_account,ACCOUNT,1,0,0,0,0
+612,"I need to cancel a {{Account Type}} account, could you help me?",BCILP,delete_account,ACCOUNT,2,0,0,0,0
+613,is it possible to get my bill #00108?,BIL,get_invoice,INVOICE,1,0,0,0,0
+614,help me check how soon can I expect the fucking purchase,BLW,delivery_period,DELIVERY,0,1,0,0,0
+615,"I have to modify the personal details, how to do it?",BCILM,edit_account,ACCOUNT,1,0,0,0,0
+616,need to edit the info included on my user profile help me,BCLQ,edit_account,ACCOUNT,1,0,0,0,0
+617,i want help to see the rebate status,BLQ,track_refund,REFUND,1,0,0,0,0
+618,I do not know what todo to chat with a live agent,BELZ,contact_human_agent,CONTACT,1,0,1,0,0
+619,"I want to see what shipment methods are there, I need help",BCLM,delivery_options,DELIVERY,1,0,0,0,0
+620,I don't know how I could cancel purchase {{Order Number}},BLP,cancel_order,ORDER,2,0,0,0,0
+621,I need help recoveting my user profile key,BLZ,recover_password,ACCOUNT,1,0,1,0,0
+622,help me see what damn shipment methods are available,BLMW,delivery_options,DELIVERY,0,1,0,0,0
+623,need to see hte goddamn early exit penalty how to do it,BCILQWZ,check_cancellation_fee,CANCEL,0,1,1,0,0
+624,I need help to set my secondary shipping address up,BL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+625,i do not know how i can receive rebates of my money,BELMQ,get_refund,REFUND,1,0,0,0,0
+626,need assistance modifying theshipping address,BLQZ,change_shipping_address,SHIPPING,1,0,1,0,0
+627,I have to see in what cases can I request a reimbursement,BL,check_refund_policy,REFUND,1,0,0,0,0
+628,"I want to track the reimbursement, can you help me?",BCIL,track_refund,REFUND,1,0,0,0,0
+629,need assistance to see how soon can I expect my article,BLQ,delivery_period,DELIVERY,1,0,0,0,0
+630,I have a problem wth the removal of my {{Account Type}} account,BLZ,delete_account,ACCOUNT,1,0,1,0,0
+631,can you help me to check order {{Order Number}} status?,BI,track_order,ORDER,1,0,0,0,0
+632,i cant register how could i notify of sign-up issues,BCILMNPQ,registration_problems,ACCOUNT,2,0,0,0,1
+633,assistance checking your allowed payment modalities,BL,check_payment_methods,PAYMENT,1,0,0,0,0
+634,trouble setting up my new delivery address,BL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+635,i do not know what to do to modify the user info,BELQ,edit_account,ACCOUNT,1,0,0,0,0
+636,where do i inform  of problems with a registration,BILMQZ,registration_problems,ACCOUNT,1,0,1,0,0
+637,I'm waiting for a goddamn compensation of {{Refund Amount}} dollars,BLQW,track_refund,REFUND,0,1,0,0,0
+638,I don't know how I can close a standard account,BL,delete_account,ACCOUNT,1,0,0,0,0
+639,wanna see the options for delivery how to do it,BCILQ,delivery_options,DELIVERY,1,0,0,0,0
+640,send me bill #37777,BL,get_invoice,INVOICE,1,0,0,0,0
+641,how can i see the current status of order {{Order Number}},BILQ,track_order,ORDER,1,0,0,0,0
+642,can I check what shipping methods I have?,BILM,delivery_options,DELIVERY,1,0,0,0,0
+643,i want assistance cancelling an {{Account Category}} account,BLQZ,delete_account,ACCOUNT,1,0,1,0,0
+644,wanna know about the subscription to the company newsletter,BLQ,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+645,problems with {{Account Type}} account terminations,BLM,delete_account,ACCOUNT,1,0,0,0,0
+646,can you help me seeing in what cases can I request refunds?,BIL,check_refund_policy,REFUND,1,0,0,0,0
+647,I do not know what I need to do to egt the bill #85632,BELZ,get_invoice,INVOICE,1,0,1,0,0
+648,can  uhelp me list ur allowed payment modalities,BILQZ,check_payment_methods,PAYMENT,1,0,1,0,0
+649,I want help correcting my shipping address,BL,change_shipping_address,SHIPPING,1,0,0,0,0
+650,do you have a phone number to contact customer assistance?,BIL,contact_customer_service,CONTACT,1,0,0,0,0
+651,i need assistance to check the invoices from {{Person Name}},BMQ,check_invoice,INVOICE,1,0,0,0,0
+652,where can i send some feedback for ur company,BILQ,review,FEEDBACK,1,0,0,0,0
+653,help me checking the withdrawal fees,BLM,check_cancellation_fee,CANCEL,1,0,0,0,0
+654,i haev issues correcting my address,BLMQZ,change_shipping_address,SHIPPING,1,0,1,0,0
+655,where can I report an error with payments?,BILM,payment_issue,PAYMENT,1,0,0,0,0
+656,I don't know what to do to switch to the {{Account Category}} account,B,switch_account,ACCOUNT,1,0,0,0,0
+657,help me change something of order {{Order Number}},B,change_order,ORDER,1,0,0,0,0
+658,I want to cancle purchase {{Order Number}},BLZ,cancel_order,ORDER,1,0,1,0,0
+659,can ya help me to wrtie a comment for a service,BILQZ,review,FEEDBACK,1,0,1,0,0
+660,I do not know what to do to inform of problems with signup,BELM,registration_problems,ACCOUNT,1,0,0,0,0
+661,i have to check bill #37777 can i get some help,BCILQ,check_invoice,INVOICE,1,0,0,0,0
+662,help me see the ETA  of purchase {{Order Number}},BLQZ,track_order,ORDER,1,0,1,0,0
+663,"I would like to cancel purchase {{Order Number}}, I need help",BCLP,cancel_order,ORDER,2,0,0,0,0
+664,I do not know how I can see the cancellation fees,BELM,check_cancellation_fee,CANCEL,1,0,0,0,0
+665,is it possible to cancel purchase {{Order Number}},BILQ,cancel_order,ORDER,1,0,0,0,0
+666,I need assistance to check when will my package arrive,BL,delivery_period,DELIVERY,1,0,0,0,0
+667,need help removing several items from order {{Order Number}},BMQ,change_order,ORDER,1,0,0,0,0
+668,i want help listing ur available payment methods,BLQ,check_payment_methods,PAYMENT,1,0,0,0,0
+669,I don't know how I could chat with a goddamn human agent,BLPW,contact_human_agent,CONTACT,,1,0,0,0
+670,I want information aboujt shipping periods,BLZ,delivery_period,DELIVERY,1,0,1,0,0
+671,I don't know what I have to do to get the bill #85632,BL,get_invoice,INVOICE,1,0,0,0,0
+672,"I would like to see what shipment methods I have, help me",BCLMP,delivery_options,DELIVERY,2,0,0,0,0
+673,is it possible to talk to customer service,BILQ,contact_customer_service,CONTACT,1,0,0,0,0
+674,how to obtain a rebate of money,BILQ,get_refund,REFUND,1,0,0,0,0
+675,I have got to retrieve the PIN of my account,BL,recover_password,ACCOUNT,1,0,0,0,0
+676,i need help to demand restitutions of my money,BLMQ,get_refund,REFUND,1,0,0,0,0
+677,need help to open a freemium account for my daughter,BLQ,create_account,ACCOUNT,1,0,0,0,0
+678,can you help me get the bills from {{Person Name}}?,BILM,get_invoice,INVOICE,1,0,0,0,0
+679,I can't submit my delivery dadress,BLZ,set_up_shipping_address,SHIPPING,1,0,1,0,0
+680,"I have got to get the bill from {{Person Name}}, will you help me?",BCILP,get_invoice,INVOICE,2,0,0,0,0
+681,checking order status,BK,track_order,ORDER,1,0,0,1,0
+682,need to recover my user account pwd,BLQ,recover_password,ACCOUNT,1,0,0,0,0
+683,i need help to notify of issues with online payments,BLMQ,payment_issue,PAYMENT,1,0,0,0,0
+684,I want to chat with a person,BL,contact_human_agent,CONTACT,1,0,0,0,0
+685,I can't talk with  a human agent,BLZ,contact_human_agent,CONTACT,1,0,1,0,0
+686,assistance to retrieve my user account pass,BLQ,recover_password,ACCOUNT,1,0,0,0,0
+687,I am trying to find information about updating the address,BEL,change_shipping_address,SHIPPING,1,0,0,0,0
+688,i have got to send some feedback for a product,BLQ,review,FEEDBACK,1,0,0,0,0
+689,I need help making a claim against your business,BL,complaint,FEEDBACK,1,0,0,0,0
+690,i do not use my {{Account Category}} cacount i want help removing it,BCELQZ,delete_account,ACCOUNT,1,0,1,0,0
+691,need to check if there are any updates on my compensation,BLMQ,track_refund,REFUND,1,0,0,0,0
+692,"I don't have a premium account, how do I sign up?",BCILN,create_account,ACCOUNT,1,0,0,0,1
+693,I have got to reset my user account access key,BL,recover_password,ACCOUNT,1,0,0,0,0
+694,i want help to check the current status of order {{Order Number}},BLQ,track_order,ORDER,1,0,0,0,0
+695,wanna unsubscribe from the corporate newsletter,BLQ,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+696,"I need to order several articles, can you help me?",BCILM,place_order,ORDER,1,0,0,0,0
+697,i wanmt help trying to change my shipping address,BQZ,change_shipping_address,SHIPPING,1,0,1,0,0
+698,get invoice #85632,BK,get_invoice,INVOICE,1,0,0,1,0
+699,see under which circumstances can I request my money back,BL,check_refund_policy,REFUND,1,0,0,0,0
+700,assistance to speak with bloody customer support,BLW,contact_customer_service,CONTACT,0,1,0,0,0
+701,where do I open a standard account for my dad?,BIL,create_account,ACCOUNT,1,0,0,0,0
+702,I want help to sdt up the new shipping address,BLZ,set_up_shipping_address,SHIPPING,1,0,1,0,0
+703,I need assistance seeing how soon can I expect my parcel,BL,delivery_period,DELIVERY,1,0,0,0,0
+704,where do I file a customer complaint againwt your company?,BILZ,complaint,FEEDBACK,1,0,1,0,0
+705,show me at what time I can call customer service,BL,contact_customer_service,CONTACT,1,0,0,0,0
+706,assistance to see the refund current status,BL,track_refund,REFUND,1,0,0,0,0
+707,want assistance opening a standard account,BLQ,create_account,ACCOUNT,1,0,0,0,0
+708,need assistance opening a pro account for my daughter,BLQ,create_account,ACCOUNT,1,0,0,0,0
+709,I don't knpw how to report payment issues,BMZ,payment_issue,PAYMENT,1,0,1,0,0
+710,i wan assistance checking how soon can i expect the purchase,BLQZ,delivery_period,DELIVERY,1,0,1,0,0
+711,I don't know how I can get the invoice #85632,B,get_invoice,INVOICE,1,0,0,0,0
+712,I have got to buy some fucking products,BLMW,place_order,ORDER,0,1,0,0,0
+713,canceling {{Account Type}} account,BKL,delete_account,ACCOUNT,1,0,0,1,0
+714,can ya help me to inform of an problem with payment,BILQZ,payment_issue,PAYMENT,1,0,1,0,0
+715,assistance to file a claim against ur company,BLQ,complaint,FEEDBACK,1,0,0,0,0
+716,where to reoort a problem with a signup,BILQZ,registration_problems,ACCOUNT,1,0,1,0,0
+717,"I forgot my user password, help me to reset it",BCL,recover_password,ACCOUNT,1,0,0,0,0
+718,how could I inform of errors with payment?,BILMP,payment_issue,PAYMENT,2,0,0,0,0
+719,i have a question about the termination of a pro account,BLQ,delete_account,ACCOUNT,1,0,0,0,0
+720,what do i need to do to switch to the freemium account,BIQ,switch_account,ACCOUNT,1,0,0,0,0
+721,how can I find information about openinga pro account?,BILZ,create_account,ACCOUNT,1,0,1,0,0
+722,I need help seeing in what cases can I ask to be reimbursed,BL,check_refund_policy,REFUND,1,0,0,0,0
+723,need help changing some articles  of order {{Order Number}},BLMQZ,change_order,ORDER,1,0,1,0,0
+724,I have to switch to the {{Account Category}} account,B,switch_account,ACCOUNT,1,0,0,0,0
+725,could you help me to cancel purchase {{Order Number}}?,BILP,cancel_order,ORDER,2,0,0,0,0
+726,I do not know how to take a quick look at bill #00108,BEL,check_invoice,INVOICE,1,0,0,0,0
+727,"I would like to talk with customer support, how do I do it?",BCILP,contact_customer_service,CONTACT,2,0,0,0,0
+728,need to download my invoice #37777 will ya help me,BCILPQ,get_invoice,INVOICE,2,0,0,0,0
+729,what do i have to do to inform of a error with payments,BILMQZ,payment_issue,PAYMENT,1,0,1,0,0
+730,see the ETA of order {{Order Number}},BL,track_order,ORDER,1,0,0,0,0
+731,I want to get in touch with customer service,BL,contact_customer_service,CONTACT,1,0,0,0,0
+732,will ya mail me my invoice from {{Person Name}},BILPQ,get_invoice,INVOICE,2,0,0,0,0
+733,need help checking in what cases can i request a refund,BLQ,check_refund_policy,REFUND,1,0,0,0,0
+734,how do I check what hours customer service available is?,BI,contact_customer_service,CONTACT,1,0,0,0,0
+735,I want assistance informing of a trouble with payment,BL,payment_issue,PAYMENT,1,0,0,0,0
+736,i do not know how to see when my delivery is gonna arrive,BELQ,delivery_period,DELIVERY,1,0,0,0,0
+737,canceling purechase {{Order Number}},BKLZ,cancel_order,ORDER,1,0,1,1,0
+738,i try tosee under what circumstances can i ask for refunds,BLQZ,check_refund_policy,REFUND,1,0,1,0,0
+739,"the shipping address changed, is it possible to update it?",BCIL,change_shipping_address,SHIPPING,1,0,0,0,0
+740,I want help to file a customer claim againstt your business,BLZ,complaint,FEEDBACK,1,0,1,0,0
+741,need help sending osme feedback for your services,BLQZ,review,FEEDBACK,1,0,1,0,0
+742,how could I report problems with payment?,BILMP,payment_issue,PAYMENT,2,0,0,0,0
+743,what do I have to do to enter my new shipping address?,BIL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+744,"I am unhappy with your services, help filing a claim",BCL,complaint,FEEDBACK,1,0,0,0,0
+745,can uhelp me swap something ofpurchase {{Order Number}},BILQZ,change_order,ORDER,1,0,1,0,0
+746,modifying info on platinum account,BKLQ,edit_account,ACCOUNT,1,0,0,1,0
+747,I need ehlp seeing the termination fees,BLMZ,check_cancellation_fee,CANCEL,1,0,1,0,0
+748,need assistance receiving ur company newsletter,BLQ,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+749,need to swap several items of purchase {{Order Number}},BLMQ,change_order,ORDER,1,0,0,0,0
+750,wanna see in which cases can i ask for a reimbursement,BLQ,check_refund_policy,REFUND,1,0,0,0,0
+751,i dont know how to check when my product is gonna arrive,BLQ,delivery_period,DELIVERY,1,0,0,0,0
+752,is it possible to buy several items,BIMQ,place_order,ORDER,1,0,0,0,0
+753,I want help unsubscribing to your company newsletter,BL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+754,i try to see how long reimbursements take,BLQ,check_refund_policy,REFUND,1,0,0,0,0
+755,i need assistance to send some feedback for ur produucts,BLQZ,review,FEEDBACK,1,0,1,0,0
+756,help seeing the ETA of order {{Order Number}},BL,track_order,ORDER,1,0,0,0,0
+757,could you help me solve troubles with payments?,BILMP,payment_issue,PAYMENT,2,0,0,0,0
+758,"I do not have a pro account yet, help me register",BCELN,create_account,ACCOUNT,1,0,0,0,1
+759,can you help me check the acepted payment modalities?,BILZ,check_payment_methods,PAYMENT,1,0,1,0,0
+760,i cannot talk with a operator,BELQZ,contact_human_agent,CONTACT,1,0,1,0,0
+761,help me to cancel my subscription to your newsletter,BL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+762,help leaving feedback for your products,BL,review,FEEDBACK,1,0,0,0,0
+763,I need assistance opening a {{Account Category}} account,BL,create_account,ACCOUNT,1,0,0,0,0
+764,remove something from order,BK,change_order,ORDER,1,0,0,1,0
+765,cancel premium account,BKL,delete_account,ACCOUNT,1,0,0,1,0
+766,i do not know what to do to leave an opinion for a product,BELQ,review,FEEDBACK,1,0,0,0,0
+767,I have got to recover my user pwd,BLQ,recover_password,ACCOUNT,1,0,0,0,0
+768,I expect an reimbursement of {{Currency Symbol}}{{Refund Amount}},BLZ,track_refund,REFUND,1,0,1,0,0
+769,how do i see ur accepted paument methods,BILQZ,check_payment_methods,PAYMENT,1,0,1,0,0
+770,how can I switch to the freemium account?,BI,switch_account,ACCOUNT,1,0,0,0,0
+771,help me to notify of issues with payments,BLM,payment_issue,PAYMENT,1,0,0,0,0
+772,how can I notify of an error with online payment?,BIL,payment_issue,PAYMENT,1,0,0,0,0
+773,"I have to shop a few of your product, how could I do it?",BCILMP,place_order,ORDER,2,0,0,0,0
+774,can you help me to inform of a problem with a registration?,BIL,registration_problems,ACCOUNT,1,0,0,0,0
+775,need assistance downloading the bills from {{Person Name}},BLMQ,get_invoice,INVOICE,1,0,0,0,0
+776,I am looking for information about a key reset,BEL,recover_password,ACCOUNT,1,0,0,0,0
+777,need help solving a payment error,BLQ,payment_issue,PAYMENT,1,0,0,0,0
+778,I do not know how I can send feedback about your services,BEL,review,FEEDBACK,1,0,0,0,0
+779,i want help ti use the freemium account,BQZ,switch_account,ACCOUNT,1,0,1,0,0
+780,can i change to the {{Account Type}} account,BILQ,switch_account,ACCOUNT,1,0,0,0,0
+781,want help lodging a consumer reclmaation,BLQZ,complaint,FEEDBACK,1,0,1,0,0
+782,do you have a number to get in touch with customer support?,BIL,contact_customer_service,CONTACT,1,0,0,0,0
+783,there is a problem submitting a new shipping address,BL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+784,"I lost my PIN code, help me resetting it",BCL,recover_password,ACCOUNT,1,0,0,0,0
+785,help trying to edit the deliveyr address,BLZ,change_shipping_address,SHIPPING,1,0,1,0,0
+786,can you tell me about receiving your newsletter?,BIL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+787,i dont want purchase {{Order Number}} could i cancel it,BCILNPQ,cancel_order,ORDER,2,0,0,0,1
+788,modify pro account,BKL,edit_account,ACCOUNT,1,0,0,1,0
+789,help earning a few of your article,BLM,place_order,ORDER,1,0,0,0,0
+790,can uhelp me  looking for the bills from {{Person Name}},BILMQZ,check_invoice,INVOICE,1,0,1,0,0
+791,can you help me checking the early exit fees?,BILM,check_cancellation_fee,CANCEL,1,0,0,0,0
+792,"I expect a compensation of {{Currency Symbol}}{{Refund Amount}}, was it processed already",BCL,track_refund,REFUND,1,0,0,0,0
+793,"I need to set a secondary delivery address up, help me",BCL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+794,what payment methods are accepted?,BIL,check_payment_methods,PAYMENT,1,0,0,0,0
+795,want assistance to see what payment options uaccept,BLQ,check_payment_methods,PAYMENT,1,0,0,0,0
+796,"I need to see my invoice #12588, how can I do it?",BCIL,check_invoice,INVOICE,1,0,0,0,0
+797,I don't know how to check the early exit charge,BL,check_cancellation_fee,CANCEL,1,0,0,0,0
+798,can you help me to report a problem with signup?,BIL,registration_problems,ACCOUNT,1,0,0,0,0
+799,I want assistance to restore my user access key,BL,recover_password,ACCOUNT,1,0,0,0,0
+800,could you help me set another shipping address up?,BIP,set_up_shipping_address,SHIPPING,2,0,0,0,0
+801,i have to contact customer support,BLQ,contact_customer_service,CONTACT,1,0,0,0,0
+802,how to see your allowed payment methods?,BIL,check_payment_methods,PAYMENT,1,0,0,0,0
+803,could I check how long it takes for my product to arrive?,BILP,delivery_period,DELIVERY,2,0,0,0,0
+804,need assistance to cancel my freemium account,BLQ,delete_account,ACCOUNT,1,0,0,0,0
+805,i dont know what to do to notify of an issdue with a sign-up,BLQZ,registration_problems,ACCOUNT,1,0,1,0,0
+806,I call to lodge a consumer claim against your organization,BL,complaint,FEEDBACK,1,0,0,0,0
+807,modifying information on pro account,BKL,edit_account,ACCOUNT,1,0,0,1,0
+808,I need assistance to make a complaint against your company,BL,complaint,FEEDBACK,1,0,0,0,0
+809,I have an issue with my registration,B,registration_problems,ACCOUNT,1,0,0,0,0
+810,purchase several of your product,BLM,place_order,ORDER,1,0,0,0,0
+811,i want help to check the shipping methods,BLQ,delivery_options,DELIVERY,1,0,0,0,0
+812,I need help cancelling my company newsletter subscription,BL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+813,I have to report signup issues,BLM,registration_problems,ACCOUNT,1,0,0,0,0
+814,I don't know what to do to notify of a payment error,BL,payment_issue,PAYMENT,1,0,0,0,0
+815,i haqve got to check when my delivery is gonna arrive,BQZ,delivery_period,DELIVERY,1,0,1,0,0
+816,I do not know what to do to edit the shipping address,BEL,change_shipping_address,SHIPPING,1,0,0,0,0
+817,help me acquiring a few of your article,BLM,place_order,ORDER,1,0,0,0,0
+818,can you help me checking the allowed payment modalities ?,BILZ,check_payment_methods,PAYMENT,1,0,1,0,0
+819,"I need to sign up to your corporate newsletter, help me",BCL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+820,i dont know what i have to do to download the invoice #12588,BLQ,get_invoice,INVOICE,1,0,0,0,0
+821,is it possible to notify of troubles with online payments?,BILM,payment_issue,PAYMENT,1,0,0,0,0
+822,i need help downloading the invoice #00108,BLQ,get_invoice,INVOICE,1,0,0,0,0
+823,I need assistance submitting my secondary delivery address,BL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+824,i want assistance getting the  bloody bill from {{Person Name}},BLQWZ,get_invoice,INVOICE,0,1,1,0,0
+825,i nee assistance to use the standard profile,BLQZ,switch_account,ACCOUNT,1,0,1,0,0
+826,want help to submit another shipping address,BLQ,set_up_shipping_address,SHIPPING,1,0,0,0,0
+827,help to modiy the address,BLZ,change_shipping_address,SHIPPING,1,0,1,0,0
+828,i do not know how to create a {{Account Category}} account,BEQ,create_account,ACCOUNT,1,0,0,0,0
+829,can I give a quick look at bill #37777?,BIL,check_invoice,INVOICE,1,0,0,0,0
+830,what do I need to do to check the withdrawal fee?,BIL,check_cancellation_fee,CANCEL,1,0,0,0,0
+831,"I want to see how long the shipping takes, help me",BCL,delivery_period,DELIVERY,1,0,0,0,0
+832,i need help with cancelling order {{Order Number}},BQ,cancel_order,ORDER,1,0,0,0,0
+833,I am trying to find information about editing the address,BEL,change_shipping_address,SHIPPING,1,0,0,0,0
+834,i want help removing a product from order {{Order Number}},BLQ,change_order,ORDER,1,0,0,0,0
+835,create new standard account for daughter,BKL,create_account,ACCOUNT,1,0,0,1,0
+836,where to see what payment methods are available?,BIL,check_payment_methods,PAYMENT,1,0,0,0,0
+837,need to locate my invoice #37777 how do i do it,BCILQ,check_invoice,INVOICE,1,0,0,0,0
+838,I want help writing a fucking comment about your company,BLW,review,FEEDBACK,0,1,0,0,0
+839,can you show me when my product is going to arrive?,BIL,delivery_period,DELIVERY,1,0,0,0,0
+840,how to notify of problems with sign-up?,BILM,registration_problems,ACCOUNT,1,0,0,0,0
+841,can you help me to see the withdrawal charge?,BIL,check_cancellation_fee,CANCEL,1,0,0,0,0
+842,I can't inform of an issue with signup,BLN,registration_problems,ACCOUNT,1,0,0,0,1
+843,help to check how long it takes for the package to asrrive,BLZ,delivery_period,DELIVERY,1,0,1,0,0
+844,"I have paid {{Currency Symbol}}{{Refund Amount}} for a product, I have to get a rebate",BCELMV,get_refund,REFUND,1,0,0,0,0
+845,I want to know  more about opening {{Account Type}} accounts,BLMZ,create_account,ACCOUNT,1,0,1,0,0
+846,what do i hafe to do to check ur payment methods,BILQZ,check_payment_methods,PAYMENT,1,0,1,0,0
+847,change information on Freemiumaccount,BKLZ,edit_account,ACCOUNT,1,0,1,1,0
+848,I do not know how I can see the current status of the refund,BEL,track_refund,REFUND,1,0,0,0,0
+849,can I see what delivery options are there?,BILM,delivery_options,DELIVERY,1,0,0,0,0
+850,i try to download bill #37777,BLQ,get_invoice,INVOICE,1,0,0,0,0
+851,update purchase {{Order Number}},BKL,change_order,ORDER,1,0,0,1,0
+852,I have problesm with a delivery address update,BLMZ,change_shipping_address,SHIPPING,1,0,1,0,0
+853,I'm trying to find information about creating users,BEMQ,create_account,ACCOUNT,1,0,0,0,0
+854,"I need to check the options for shipping, how do I do it?",BCIL,delivery_options,DELIVERY,1,0,0,0,0
+855,can uhelp me seethe ETA of order {{Order Number}},BILQZ,track_order,ORDER,1,0,1,0,0
+856,how to talk with an agent?,BIL,contact_human_agent,CONTACT,1,0,0,0,0
+857,modify data on freemium account,BKL,edit_account,ACCOUNT,1,0,0,1,0
+858,have problems with a shipping address update,BLMQ,change_shipping_address,SHIPPING,1,0,0,0,0
+859,cancelling {{Account Type}} account,BKL,delete_account,ACCOUNT,1,0,0,1,0
+860,where can i fiond information about a pro account removal,BILQZ,delete_account,ACCOUNT,1,0,1,0,0
+861,there is an issue submitting the secondary shipping address,BL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+862,can uhelp me to see the withdrawal fee,BILQ,check_cancellation_fee,CANCEL,1,0,0,0,0
+863,help seeing under what circumstances can I request refunds,BL,check_refund_policy,REFUND,1,0,0,0,0
+864,can uhelp me to speak with a person,BILQ,contact_human_agent,CONTACT,1,0,0,0,0
+865,where do I enter the secondary shipping address?,BIL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+866,i have to check in what situatins can i ask to be reimbursed,BLQZ,check_refund_policy,REFUND,1,0,1,0,0
+867,help me submit another delivery address,BL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+868,whre do I inform of problems with sign-up?,BILMZ,registration_problems,ACCOUNT,1,0,1,0,0
+869,i need assistance to leave a review about ur company,BLQ,review,FEEDBACK,1,0,0,0,0
+870,I don't know how to locate order {{Order Number}},BL,track_order,ORDER,1,0,0,0,0
+871,I need assistance to purchase some of your article,BLM,place_order,ORDER,1,0,0,0,0
+872,where to see when will my parcel arrive,BILQ,delivery_period,DELIVERY,1,0,0,0,0
+873,assistance to create another fucking freemium account,BLW,create_account,ACCOUNT,0,1,0,0,0
+874,"my experience with you was too bad, help making a complaint",BCL,complaint,FEEDBACK,1,0,0,0,0
+875,need help cancelling order {{Order Number}},BQ,cancel_order,ORDER,1,0,0,0,0
+876,i need help to look for the bill #12588,BLQ,check_invoice,INVOICE,1,0,0,0,0
+877,I want assistance demanding a compensation,BL,get_refund,REFUND,1,0,0,0,0
+878,where to request compensations of money?,BILM,get_refund,REFUND,1,0,0,0,0
+879,correct details on {{Account Category}} account,BKLM,edit_account,ACCOUNT,1,0,0,1,0
+880,can I see your allowed payment methods?,BIL,check_payment_methods,PAYMENT,1,0,0,0,0
+881,i do not know how to change to the {{Account Category}} account,BELQ,switch_account,ACCOUNT,1,0,0,0,0
+882,need assistance to order several of your product,BLMQ,place_order,ORDER,1,0,0,0,0
+883,"I have to see order {{Order Number}} current status, help me",BCL,track_order,ORDER,1,0,0,0,0
+884,can you help me checking what shipping options I have?,BILM,delivery_options,DELIVERY,1,0,0,0,0
+885,"I have got to see the status of my rebate, I need assistance",BCL,track_refund,REFUND,1,0,0,0,0
+886,inform of an issue with an registration,BLZ,registration_problems,ACCOUNT,1,0,1,0,0
+887,help to purchase a few of your item,BLM,place_order,ORDER,1,0,0,0,0
+888,what do I have to do to receive your company newsletter?,BIL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+889,I have got to give a quick look at my bills from {{Person Name}},BLM,check_invoice,INVOICE,1,0,0,0,0
+890,is it possible tocheck invoice #37777,BIQZ,check_invoice,INVOICE,1,0,1,0,0
+891,i have to see the invoice #00108,BLQ,check_invoice,INVOICE,1,0,0,0,0
+892,wanna see how long refunds take help me,BCLQ,check_refund_policy,REFUND,1,0,0,0,0
+893,where can I list the accepted payment options?,BIL,check_payment_methods,PAYMENT,1,0,0,0,0
+894,i need assistancenotifying of a goddamn issue with payment,BLQWZ,payment_issue,PAYMENT,0,1,1,0,0
+895,can you help me notifying of errors with online payment?,BILM,payment_issue,PAYMENT,1,0,0,0,0
+896,I have problems submitting the delivery address,BLM,set_up_shipping_address,SHIPPING,1,0,0,0,0
+897,how do I check if there are any updates on my refund?,BIM,track_refund,REFUND,1,0,0,0,0
+898,can you help me speaking with someone?,BIL,contact_human_agent,CONTACT,1,0,0,0,0
+899,i want assistance unsubscribing from the newsletter,BLQ,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+900,opdn freemium account,BKLZ,create_account,ACCOUNT,1,0,1,1,0
+901,I need help shoppimg several items,BLMZ,place_order,ORDER,1,0,1,0,0
+902,want assistance seeing the cancellation penalty,BLQ,check_cancellation_fee,CANCEL,1,0,0,0,0
+903,i dont  understand ya assistance speaking to a live agent,BCLQZ,contact_human_agent,CONTACT,1,0,1,0,0
+904,want help to see in which situations can I ask for refunds,BLQ,check_refund_policy,REFUND,1,0,0,0,0
+905,I have to  inform of sign-up problems,BLMZ,registration_problems,ACCOUNT,1,0,1,0,0
+906,where can I find information about shipping periods?,BIL,delivery_period,DELIVERY,1,0,0,0,0
+907,help me seeing if there is anything new on the reimbursement,BL,track_refund,REFUND,1,0,0,0,0
+908,help me receive the corporate newsletter,BL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+909,I am trying to reset the PIN code of my user,BL,recover_password,ACCOUNT,1,0,0,0,0
+910,I have to download my bill #12588,BL,get_invoice,INVOICE,1,0,0,0,0
+911,help me checking the current status of purchase {{Order Number}},BL,track_order,ORDER,1,0,0,0,0
+912,how can I subscribe to the newsletter?,BIL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+913,"I paid {{Currency Symbol}}{{Refund Amount}} for this product, how doI get a rebate?",BCILMZ,get_refund,REFUND,1,0,1,0,0
+914,I am trying to check the status of the restitution,BL,track_refund,REFUND,1,0,0,0,0
+915,"I have got to earn some of your product, how can I do it?",BCILM,place_order,ORDER,1,0,0,0,0
+916,I need help giving an quick look at my bill #85632,BLZ,check_invoice,INVOICE,1,0,1,0,0
+917,give me information about creating pro accounts,BM,create_account,ACCOUNT,1,0,0,0,0
+918,help me to inform of a registration issue,BL,registration_problems,ACCOUNT,1,0,0,0,0
+919,update personal data,BKL,edit_account,ACCOUNT,1,0,0,1,0
+920,I need assistance to give a quick look at the bill #37777,BL,check_invoice,INVOICE,1,0,0,0,0
+921,i have got to order several of ur product,BLMQ,place_order,ORDER,1,0,0,0,0
+922,how can I contact a human agent?,BIL,contact_human_agent,CONTACT,1,0,0,0,0
+923,how do i cyat with a person,BILQZ,contact_human_agent,CONTACT,1,0,1,0,0
+924,how can I cancel the newsletter subscription?,BIL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+925,opening new {{Account Type}} account for daughter,BKL,create_account,ACCOUNT,1,0,0,1,0
+926,can you tell me your damn payment methods?,BILW,check_payment_methods,PAYMENT,0,1,0,0,0
+927,where can I see the withdrawal fees?,BILM,check_cancellation_fee,CANCEL,1,0,0,0,0
+928,wanna see ur accepted payment options can ya help me,BCILQ,check_payment_methods,PAYMENT,1,0,0,0,0
+929,i have problems with canceling order {{Order Number}},BMQ,cancel_order,ORDER,1,0,0,0,0
+930,find the bills from {{Person Name}},BLM,check_invoice,INVOICE,1,0,0,0,0
+931,I am trying to se how long the shipment takes,BLZ,delivery_period,DELIVERY,1,0,1,0,0
+932,want help trying to edit my addres,BLQZ,change_shipping_address,SHIPPING,1,0,1,0,0
+933,where do i earn several articles,BILMQ,place_order,ORDER,1,0,0,0,0
+934,I have got to subscrie to the company newsletter,BLZ,newsletter_subscription,SUBSCRIPTION,1,0,1,0,0
+935,help ot leave my feedback for a service,BLZ,review,FEEDBACK,1,0,1,0,0
+936,modify {{Account Category}} account,BKL,edit_account,ACCOUNT,1,0,0,1,0
+937,i want help canceling the {{Account Category}} account,BLQ,delete_account,ACCOUNT,1,0,0,0,0
+938,where to see the current status of the reimbursement,BILQ,track_refund,REFUND,1,0,0,0,0
+939,"I have got to see your refund policy, I need assistance",BCL,check_refund_policy,REFUND,1,0,0,0,0
+940,how can i tfack purchase {{Order Number}},BILQZ,track_order,ORDER,1,0,1,0,0
+941,I'm having issues trying to register,BELMQ,registration_problems,ACCOUNT,1,0,0,0,0
+942,"I nede to see the early exit fees, how can I do it?",BCILMZ,check_cancellation_fee,CANCEL,1,0,1,0,0
+943,would it be possible to inform of errors with sign-up?,BILMP,registration_problems,ACCOUNT,2,0,0,0,0
+944,I do not know how to earn a product,BEL,place_order,ORDER,1,0,0,0,0
+945,I need assistance to download the bills from {{Person Name}},BLM,get_invoice,INVOICE,1,0,0,0,0
+946,I'd like to see ur money back guarantee how to do it,BCILPQ,check_refund_policy,REFUND,2,0,0,0,0
+947,can I see at what time I can reach customer service?,BIL,contact_customer_service,CONTACT,1,0,0,0,0
+948,i do not know what to do to request a reimbursement of money,BELQ,get_refund,REFUND,1,0,0,0,0
+949,I have problems with cancelling order {{Order Number}},BM,cancel_order,ORDER,1,0,0,0,0
+950,canceling gold account,BKL,delete_account,ACCOUNT,1,0,0,1,0
+951,could I check the termination fee?,BILP,check_cancellation_fee,CANCEL,2,0,0,0,0
+952,show me your payment options,BL,check_payment_methods,PAYMENT,1,0,0,0,0
+953,I cannot submit a secondary delivery address,BEL,set_up_shipping_address,SHIPPING,1,0,0,0,0
+954,want help to report errors with online paymen,BLMQZ,payment_issue,PAYMENT,1,0,1,0,0
+955,how can I see what delivery options you offer?,BILM,delivery_options,DELIVERY,1,0,0,0,0
+956,I have got to see what hours I can reach customer service,BL,contact_customer_service,CONTACT,1,0,0,0,0
+957,could you help me check what payment options are available?,BILP,check_payment_methods,PAYMENT,2,0,0,0,0
+958,assistance to contact customer support,BL,contact_customer_service,CONTACT,1,0,0,0,0
+959,I try to remove some articles from order {{Order Number}},BLM,change_order,ORDER,1,0,0,0,0
+960,can you help me checking the cancellation charge?,BIL,check_cancellation_fee,CANCEL,1,0,0,0,0
+961,I am trying to restore the pwd of my user profile,BLQ,recover_password,ACCOUNT,1,0,0,0,0
+962,see the damn bill from {{Person Name}},BLW,check_invoice,INVOICE,0,1,0,0,0
+963,can you help me solve issues with online payments?,BILM,payment_issue,PAYMENT,1,0,0,0,0
+964,what do I have to do to submit the goddamn shipping address?,BILW,set_up_shipping_address,SHIPPING,0,1,0,0,0
+965,assistance to see when will my product arrive,BL,delivery_period,DELIVERY,1,0,0,0,0
+966,can you help me giving a quick look at my bill #12588?,BIL,check_invoice,INVOICE,1,0,0,0,0
+967,can you show me the current status of order {{Order Number}}?,BIL,track_order,ORDER,1,0,0,0,0
+968,i want assistance seeing the compensation current status,BLQ,track_refund,REFUND,1,0,0,0,0
+969,help to swap a product of order {{Order Number}},BL,change_order,ORDER,1,0,0,0,0
+970,how do i swap a product of order {{Order Number}},BILQ,change_order,ORDER,1,0,0,0,0
+971,"my card was declined, can I report problems with payments?",BCILM,payment_issue,PAYMENT,1,0,0,0,0
+972,how can I update the user info?,BILQ,edit_account,ACCOUNT,1,0,0,0,0
+973,help me to receive the bloody newsletter,BLW,newsletter_subscription,SUBSCRIPTION,0,1,0,0,0
+974,i have to speak with a bloody human agent,BLQW,contact_human_agent,CONTACT,0,1,0,0,0
+975,i aint registered yet could i open a pro account withyou,BCILPQZ,create_account,ACCOUNT,2,0,1,0,0
+976,order status,BK,track_order,ORDER,1,0,0,1,0
+977,assistance to see the ETA of the order {{Order Number}},BL,track_order,ORDER,1,0,0,0,0
+978,"I have got to cancel purchase {{Order Number}}, help me",BCL,cancel_order,ORDER,1,0,0,0,0
+979,can ya help me change a product of purchase {{Order Number}},BILQ,change_order,ORDER,1,0,0,0,0
+980,wanna correct the personal information,BLQ,edit_account,ACCOUNT,1,0,0,0,0
+981,how can i see purchase {{Order Number}} sttatus,BILQZ,track_order,ORDER,1,0,1,0,0
+982,help me to check what delivery methods I can choose,BLM,delivery_options,DELIVERY,1,0,0,0,0
+983,"I have got to leave a comment for a product, how do I do it?",BCIL,review,FEEDBACK,1,0,0,0,0
+984,I don't know what to do to see my invoice #00108,BL,check_invoice,INVOICE,1,0,0,0,0
+985,help to write a review about a product,BL,review,FEEDBACK,1,0,0,0,0
+986,I don't know what I need to do to talk to somebody,BL,contact_human_agent,CONTACT,1,0,0,0,0
+987,I don't know what to do to order a few of your article,BLM,place_order,ORDER,1,0,0,0,0
+988,help me to unsubscribe to the corporate newsletter,BL,newsletter_subscription,SUBSCRIPTION,1,0,0,0,0
+989,I need assistance reporting a registration issue,B,registration_problems,ACCOUNT,1,0,0,0,0
+990,how to see the status of order {{Order Number}},BILQ,track_order,ORDER,1,0,0,0,0
+991,how to switch a product of order {{Order Number}}?,BIL,change_order,ORDER,1,0,0,0,0
+992,comment for your services,BKL,review,FEEDBACK,1,0,0,1,0
+993,how do I cancel my subscription to the newsletter ?,BILZ,newsletter_subscription,SUBSCRIPTION,1,0,1,0,0
+994,"I have to correct purchase {{Order Number}}, can you help me?",BCIL,change_order,ORDER,1,0,0,0,0
+995,where can i see the current status of purchase {{Order Number}},BILQ,track_order,ORDER,1,0,0,0,0
+996,how to file a bloody customer complaint?,BILW,complaint,FEEDBACK,0,1,0,0,0
+997,I do not know what to do to see the withdrawal fee,BEL,check_cancellation_fee,CANCEL,1,0,0,0,0
+998,i can no longer afford order {{Order Number}},BLNQ,cancel_order,ORDER,1,0,0,0,1
+999,I do not know how I could check the delivery methods,BELP,delivery_options,DELIVERY,2,0,0,0,0
